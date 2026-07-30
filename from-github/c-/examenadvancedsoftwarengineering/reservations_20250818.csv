@@ -1,0 +1,4 @@
+ReservationID,TotalPrice,CustomerName,CustomerAddress,CustomerEmail,CustomerPhone
+1,0.0000000000000000000000000000,Jean-Jacques,Boomstraat 30,jean-jacquesvandewalle@hotmail.com,0456180394
+2,0.0000000000000000000000000000,Alice,Stationlaan 1,alice@example.com,0400000000
+3,40000.000000000000000000000000,jomu,gerard,jomu@hotmail.com,049585
