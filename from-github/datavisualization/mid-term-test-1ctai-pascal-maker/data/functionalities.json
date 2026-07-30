@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Dance",
+    "description": "Perform a short dance routine."
+  },
+  {
+    "id": 2,
+    "name": "Talk",
+    "description": "Speak a short scripted message."
+  },
+  {
+    "id": 3,
+    "name": "Lift",
+    "description": "Move and lift light objects."
+  },
+  {
+    "id": 4,
+    "name": "Scan",
+    "description": "Scan nearby objects or markers."
+  }
+]

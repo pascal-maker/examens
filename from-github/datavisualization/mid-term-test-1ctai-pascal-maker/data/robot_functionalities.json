@@ -1,0 +1,22 @@
+[
+  {
+    "robot_id": 1,
+    "functionality_id": 1
+  },
+  {
+    "robot_id": 2,
+    "functionality_id": 2
+  },
+  {
+    "robot_id": 3,
+    "functionality_id": 3
+  },
+  {
+    "robot_id": 4,
+    "functionality_id": 4
+  },
+  {
+    "robot_id": 5,
+    "functionality_id": 1
+  }
+]

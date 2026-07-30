@@ -1,0 +1,1629 @@
+{
+    "buffer": {
+        "_byteString": {
+            "binaryString": "\n\u0017starcancellation-341980\u0012\u001b\n\u000b\b\u00a7\u00d4\u0097\u00ba\u0006\u0010\u0080\u0090\u00a1\u000f\u0012\f\b\u0097\u00d5\u0097\u00ba\u0006\u0010\u00c0\u00d1\u00ea\u009d\u0001\u001a\u0004\b\u0001\u0010\u0017\u001a\u0004\b\u0002\u0010\u00192 \b\u0002\u0012\u000f\r\u00dc\u00e3\u00f7=\u0015\u00d6\u009a\u008e?\u001d$\u0097\u001f?\u0018\u0001:\tstar_(52)2 \b\u0002\u0012\u000f\r\u0016\u00df\u0089\u00be\u0015bA\u009a?\u001d'\u0097\u001f?\u0018\u0004:\tstar_(51)2 \b\u0002\u0012\u000f\r%Gl\u00be\u0015\u001ew\u009a?\u001d'\u0097\u001f?\u0018\u0004:\tstar_(50)2 \b\u0002\u0012\u000f\r\u00ab\u00dbk\u00be\u0015FG\u0092?\u001d'\u0097\u001f?\u0018\u0004:\tstar_(49)2 \b\u0002\u0012\u000f\r9\u0099j\u00be\u0015\u00a8\u00b8\u008a?\u001d'\u0097\u001f?\u0018\u0004:\tstar_(48)2 \b\u0002\u0012\u000f\r\u0086j<\u00be\u0015Ds\u008d?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(47)2 \b\u0002\u0012\u000f\r\u001eQ:\u00be\u0015\u00ae\u0095\u0095?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(46)2 \b\u0002\u0012\u000f\r\u00ec5\u0016\u00be\u0015bA\u009a?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(45)2 \b\u0002\u0012\u000f\r+,\u0011\u00be\u0015\u00f8\u001e\u0092?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(44)2 \b\u0002\u0012\u000f\r\u00b1\u00c0\u0010\u00be\u0015\u00d4\u00fb\u008a?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(43)2 \b\u0002\u0012\u000f\r\f\u00b1\u0013\u00be\u00156m\u0083?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(42)2 \b\u0002\u0012\u000f\rD\u00b8\u00fb\u00bd\u0015`\u0011\u0080?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(41)2 \b\u0002\u0012\u000f\r\u00c5\u0012\u000f\u00be\u0015\u0083Cx?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(40)2 \b\u0002\u0012\u000f\r\u001c\u00c6v\u00be\u0015B5\u0086?\u001d'\u0097\u001f?\u0018\u0003:\tstar_(39)2 \b\u0002\u0012\u000f\r\u00d3\u0014\u008a\u00be\u0015\u00bet\u008b?\u001d'\u0097\u001f?\u0018\u0004:\tstar_(38)2 \b\u0002\u0012\u000f\rN\u0080\u008a\u00be\u0015\u00e8D\u0083?\u001d'\u0097\u001f?\u0018\u0003:\tstar_(37)2 \b\u0002\u0012\u000f\r.pk\u00be\u0015\u00c7\rx?\u001d'\u0097\u001f?\u0018\u0003:\tstar_(36)2 \b\u0002\u0012\u000f\r?At\u00be\u0015s4h?\u001d'\u0097\u001f?\u0018\u0003:\tstar_(35)2 \b\u0002\u0012\u000f\r]\n\u00fa\u00bd\u0015\u00cf\u00f8o?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(34)2 \b\u0002\u0012\u000f\r\u00a2\u00db\u00cb\u00bd\u0015\u0083Cx?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(33)2 \b\u0002\u0012\u000f\r\u00bc\u0019n\u00bd\u0015\u0099\u00ffx?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(32)2 \b\u0002\u0012\u000f\r\u0090uq\u00bd\u0015\u00a8\u00b8\u008a?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(31)2 \b\u0002\u0012\u000f\rhI\u0080\u00bd\u0015\u00b8T\u0092?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(30)2 \b\u0002\u0012\u000f\r\u00a9+\u001f\u00bd\u0015(\u0001\u0096?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(29)2 \b\u0002\u0012\u000f\r\u00de\u000b\u0093\u00bc\u0015@\\\u009a?\u001d&\u0097\u001f?\u0018\u0001:\tstar_(28)2 \b\u0002\u0012\u000f\r]F\u00b1\u00bc\u0015\u00d89\u0092?\u001d&\u0097\u001f?\u0018\u0004:\tstar_(27)2 \b\u0002\u0012\u000f\r\u00b3\u008e\u00aa\u00bc\u0015\u0084\u0095\u0083?\u001d&\u0097\u001f?\u0018\u0003:\tstar_(26)2 \b\u0002\u0012\u000f\r</\u00c0<\u0015\"$\u008b?\u001d%\u0097\u001f?\u0018\u0001:\tstar_(25)2 \b\u0002\u0012\u000f\r\u00e6\u00e6\u00c6<\u0015\u00de\u0085\u0086?\u001d%\u0097\u001f?\u0018\u0002:\tstar_(24)2 \b\u0002\u0012\u000f\r`*/>\u0015\u00abf\u007f?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(23)2 \b\u0002\u0012\u000f\rbQC>\u0015b\u00b0\u0083?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(22)2 \b\u0002\u0012\u000f\rT\u00da\u001b>\u0015\u00d2'\u0086?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(21)2 \b\u0002\u0012\u000f\r\u00fb7\u00e1=\u0015b\u00b0\u0083?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(20)2 \b\u0002\u0012\u000f\r\u00e8\u0097z=\u0015\u00a4z\u0083?\u001d%\u0097\u001f?\u0018\u0002:\tstar_(19)2 \b\u0002\u0012\u000f\r\u00d4E|=\u0015\u00c7\rx?\u001d%\u0097\u001f?\u0018\u0002:\tstar_(18)2 \b\u0002\u0012\u000f\r\u001b\u00b3\u00de=\u0015?yx?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(17)2 \b\u0002\u0012\u000f\r\u00e6\u0097\u001a>\u0015\u00db\u00c9x?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(16)2 \b\u0002\u0012\u000f\rO2\u0082>\u0015\u00070n?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(15)2 \b\u0002\u0012\u000f\rO2\u0082>\u0015\u00cbK\u007f?\u001d$\u0097\u001f?\u0018\u0002:\tstar_(14)2 \b\u0002\u0012\u000f\rs\u00c1\u000b=\u0015\u008c\u00e5\u0096?\u001d%\u0097\u001f?\u0018\u0001:\tstar_(13)2 \b\u0002\u0012\u000f\r\u0090\u00c5\u00e1<\u0015\u00c2\u00b2\u0092?\u001d%\u0097\u001f?\u0018\u0001:\tstar_(12)2 \b\u0002\u0012\u000f\r*\u008eu=\u0015\u00d89\u0092?\u001d%\u0097\u001f?\u0018\u0001:\tstar_(11)2 \b\u0002\u0012\u000f\r\u00e8\u00e5\u00e2=\u0015\u00d89\u0092?\u001d$\u0097\u001f?\u0018\u0001:\tstar_(10)2\u001f\b\u0002\u0012\u000f\r\u00fe\u0091\">\u0015TD\u0096?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(9)2\u001f\b\u0002\u0012\u000f\r\u0011\u008a\u00df=\u0015J\u00ba\u009a?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(8)2\u001f\b\u0002\u0012\u000f\ra\u0003\u001b>\u0015\u00dc\u00ac\u009a?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(7)2\u001f\b\u0002\u0012\u000f\r\u00b2\u0018G>\u0015\u00e8\n\u009b?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(6)2\u001f\b\u0002\u0012\u000f\r1,Q>\u0015\u008c\u00e5\u0096?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(5)2\u001f\b\u0002\u0012\u000f\r|\u00c2r>\u0015\u0006}\u0092?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(4)2\u001f\b\u0002\u0012\u000f\r\u0012\u0080q>\u0015.\u0082\u008b?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(3)2\u001f\b\u0002\u0012\u000f\r\u00e7\u00e5B>\u0015pL\u008b?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(2)2\u001f\b\u0002\u0012\u000f\r\u0096\u00d0\u0016>\u0015\u00b4\u0016\u008b?\u001d$\u0097\u001f?\u0018\u0001:\bstar_(1)2)\b\u0001\u0012\u000f\r\u0085\u0091\u0090\u00be\u0015\u00e2\u0010\u0096?\u001d\u00b0\u00d8\u001f?\u0018\u0004(\u00010\u0002:\u000estar_small_(1)2)\b\u0001\u0012\u000f\r\u00c3\u00b3\u0086\u00be\u0015P\u00b4\u0093?\u001d\u00b0\u00d8\u001f?\u0018\u0004(\u00010\u0003:\u000estar_small_(2)2)\b\u0001\u0012\u000f\r\u00e9\u00d6\u008d\u00be\u0015\u009cr\u0091?\u001d\u00b0\u00d8\u001f?\u0018\u0004(\u00010\u0004:\u000estar_small_(3)2)\b\u0001\u0012\u000f\r\u0018#\u0094\u00be\u0015dg\u008e?\u001d\u00b0\u00d8\u001f?\u0018\u0004(\u00010\u0005:\u000estar_small_(4)2)\b\u0001\u0012\u000f\r\"L\u0093\u00be\u0015\u00f2P\u0088?\u001d\u00b0\u00d8\u001f?\u0018\u0003(\u00010\u0006:\u000estar_small_(5)2)\b\u0001\u0012\u000f\r\u0082\u00bd\u008b\u00be\u0015\u0095\u0087}?\u001d\u00b0\u00d8\u001f?\u0018\u0003(\u00010\n:\u000estar_small_(6)2)\b\u0001\u0012\u000f\r\u00f2\u00ff\u008c\u00be\u0015EVw?\u001d\u00b0\u00d8\u001f?\u0018\u0003(\u00010\u000b:\u000estar_small_(7)2)\b\u0001\u0012\u000f\r\u00cf\u0011K\u00be\u0015\u00eb\u00cfv?\u001d\u00ae\u00d8\u001f?\u0018\u0003(\u00010\f:\u000estar_small_(8)2)\b\u0001\u0012\u000f\r\u0082#3\u00be\u0015S,g?\u001d\u00ae\u00d8\u001f?\u0018\u0003(\u00010\u000e:\u000estar_small_(9)2*\b\u0001\u0012\u000f\r\u0012\u00e11\u00be\u0015\u00b9\u0002{?\u001d\u00ae\u00d8\u001f?\u0018\u0003(\u00010\r:\u000fstar_small_(10)2*\b\u0001\u0012\u000f\r\u00f9\u00b5G\u00be\u0015\u00c29\u0083?\u001d\u00ae\u00d8\u001f?\u0018\u0003(\u00010\t:\u000fstar_small_(11)2*\b\u0001\u0012\u000f\r\u001fXY\u00be\u0015\u00e6\u0088\u0085?\u001d\u00b0\u00d8\u001f?\u0018\u0003(\u00010\b:\u000fstar_small_(12)2*\b\u0001\u0012\u000f\r\u00ef\u008cH\u00be\u0015L\f\u008a?\u001d\u00ae\u00d8\u001f?\u0018\u0004(\u00010\u0007:\u000fstar_small_(13)2*\b\u0001\u0012\u000f\r\u00e5cI\u00be\u0015\u0002\"\u0091?\u001d\u00ae\u00d8\u001f?\u0018\u0004(\u00010\u001d:\u000fstar_small_(14)2*\b\u0001\u0012\u000f\r^\u00cfI\u00be\u0015\u00b8l\u0099?\u001d\u00ae\u00d8\u001f?\u0018\u0004(\u00010\u001c:\u000fstar_small_(15)2*\b\u0001\u0012\u000f\r\u00af\u00ed\u00df\u00bd\u0015t\u00a2\u0099?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u00010\u001f:\u000fstar_small_(16)2*\b\u0001\u0012\u000f\r\u00d3\u00cc\u008c\u00bd\u0015t\u00a2\u0099?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u00010 :\u000fstar_small_(17)2*\b\u0001\u0012\u000f\r\u0007\u00e8\u00b0\u00bd\u0015\u008c\u0093\u009b?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u00010\u001e:\u000fstar_small_(18)2*\b\u0001\u0012\u000f\r\u00ab=m<\u0015\u0006\u0095\u0099?\u001d\u00af\u00d8\u001f?\u0018\u0001(\u00010!:\u000fstar_small_(19)2*\b\u0001\u0012\u000f\r6\u00d1\u00e8<\u0015\u00f0B\u009b?\u001d\u00ae\u00d8\u001f?\u0018\u0001(\u00010\":\u000fstar_small_(20)2*\b\u0001\u0012\u000f\r\u0092+Y=\u0015T\u00bd\u0099?\u001d\u00ae\u00d8\u001f?\u0018\u0001(\u00010#:\u000fstar_small_(21)2*\b\u0001\u0012\u000f\r+T)>\u0015\u0006\u00ff\u009b?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000105:\u000fstar_small_(22)2*\b\u0001\u0012\u000f\r\u00a04\u0086>\u0015\u00dc%\u009e?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000104:\u000fstar_small_(23)2*\b\u0001\u0012\u000f\r\u00b7\u0086\u0084>\u0015(\u00af\u009a?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000102:\u000fstar_small_(24)2*\b\u0001\u0012\u000f\r\u00a2\b\u008b>\u0015&E\u0098?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000101:\u000fstar_small_(25)21\b\u0001\u0012\u000f\r\u008d\u00b6\u008c>\u0015\u00be\u008c\u0092?\u001d\u00ad\u00d8\u001f?\u0018\u00010\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0001:\u000fstar_small_(26)2*\b\u0001\u0012\u000f\r\u0010w\u0087>\u0015z#\u008f?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u00010/:\u000fstar_small_(27)2*\b\u0001\u0012\u000f\r\u008d\u00e2\u0087>\u00156\u0085\u008a?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u00010.:\u000fstar_small_(28)2*\b\u0001\u0012\u000f\r\u00b5\u00ad\u0098>\u0015\u0082\u00d9\u0085?\u001d\u00ad\u00d8\u001f?\u0018\u0002(\u00010-:\u000fstar_small_(29)2*\b\u0001\u0012\u000f\rEk\u0097>\u0015=k\u007f?\u001d\u00ad\u00d8\u001f?\u0018\u0002(\u00010,:\u000fstar_small_(30)2*\b\u0001\u0012\u000f\r\u00d2\u00b1N>\u0015\u00d7\u00e7z?\u001d\u00ad\u00d8\u001f?\u0018\u0002(\u00010+:\u000fstar_small_(31)2*\b\u0001\u0012\u000f\r\u00aa\u00e6=>\u0015EVw?\u001d\u00ad\u00d8\u001f?\u0018\u0002(\u00010*:\u000fstar_small_(32)2*\b\u0001\u0012\u000f\r\u00ac\u0019\u000b>\u0015\u00bd\u0019n?\u001d\u00ad\u00d8\u001f?\u0018\u0002(\u00010):\u000fstar_small_(33)2*\b\u0001\u0012\u000f\r\u0000j\u0087<\u0015\u00e1\u00a6w?\u001d\u00af\u00d8\u001f?\u0018\u0002(\u00010\u0013:\u000fstar_small_(34)2*\b\u0001\u0012\u000f\r\u00b3\u00a1\u001c<\u0015j\u00b3\u0082?\u001d\u00af\u00d8\u001f?\u0018\u0002(\u00010\u0014:\u000fstar_small_(35)2*\b\u0001\u0012\u000f\rY\u009c\u00f9<\u0015&\u007f\u0080?\u001d\u00ae\u00d8\u001f?\u0018\u0002(\u00010\u0012:\u000fstar_small_(36)2*\b\u0001\u0012\u000f\r\t\u00807\u00bb\u0015US{?\u001d\u0094\u00de\u001f?\u0018\u0002(\u00010\u0011:\u000fstar_small_(37)2*\b\u0001\u0012\u000f\rQ\u009c\u00dc\u00bc\u0015EVw?\u001d\u00af\u00d8\u001f?\u0018\u0003(\u00010\u0010:\u000fstar_small_(38)2*\b\u0001\u0012\u000f\r\b\u009a\u0088\u00bd\u0015\u00b3\u00f0n?\u001d\u00af\u00d8\u001f?\u0018\u0003(\u00010\u000f:\u000fstar_small_(39)2*\b\u0001\u0012\u000f\r&\u0015\u0086\u00bd\u0015H\u00ce\u0082?\u001d\u00af\u00d8\u001f?\u0018\u0003(\u00010\u0016:\u000fstar_small_(40)2*\b\u0001\u0012\u000f\r\u00fc\u00be\u00b1\u00bd\u0015\u0080\u0005\u0081?\u001d\u00af\u00d8\u001f?\u0018\u0003(\u00010\u0015:\u000fstar_small_(41)2*\b\u0001\u0012\u000f\r0\u00da\u00d5\u00bd\u0015\u0010-\u0082?\u001d\u00af\u00d8\u001f?\u0018\u0003(\u00010\u0018:\u000fstar_small_(42)2*\b\u0001\u0012\u000f\r[W\u00be\u00bd\u0015`\u00bf\u0084?\u001d\u00af\u00d8\u001f?\u0018\u0003(\u00010\u0017:\u000fstar_small_(43)2*\b\u0001\u0012\u000f\r\u0090r\u00e2\u00bd\u0015*'\u008a?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u00010\u0019:\u000fstar_small_(44)2*\b\u0001\u0012\u000f\r\u00d0h\u00dd\u00bd\u0015NJ\u0091?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u00010\u001b:\u000fstar_small_(45)2*\b\u0001\u0012\u000f\r\u001d8\u00b9\u00bd\u0015\u00c4\u00bc\u008d?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u00010\u001a:\u000fstar_small_(46)2*\b\u0001\u0012\u000f\r\u009ea\u00ea\u00bc\u0015.\u00fc\u0089?\u001d\u00af\u00d8\u001f?\u0018\u0004(\u000109:\u000fstar_small_(47)2*\b\u0001\u0012\u000f\r\u0082@\u00f6<\u0015\u00ea0\u008f?\u001d\u00ae\u00d8\u001f?\u0018\u0001(\u00010%:\u000fstar_small_(48)2*\b\u0001\u0012\u000f\r\u0096\u0016\u0099=\u0015r\u0099\u0093?\u001d\u00ae\u00d8\u001f?\u0018\u0001(\u00010$:\u000fstar_small_(49)2*\b\u0001\u0012\u000f\r\u0096\u0016\u0099=\u0015\u00f4\u00ef\u008b?\u001d\u00ae\u00d8\u001f?\u0018\u0001(\u00010':\u000fstar_small_(50)2*\b\u0001\u0012\u000f\r\u00fb\u00ecd=\u0015xO\u008a?\u001d\u00ae\u00d8\u001f?\u0018\u0001(\u00010&:\u000fstar_small_(51)2*\b\u0001\u0012\u000f\r\u0080u\u000e>\u0015T,\u0083?\u001d\u00ad\u00d8\u001f?\u0018\u0002(\u00010(:\u000fstar_small_(52)2*\b\u0001\u0012\u000f\rJ\u00a8\u0012>\u0015f\u0006\u0092?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000108:\u000fstar_small_(53)2*\b\u0001\u0012\u000f\rV\u00f8%>\u0015\u00ca\u001f\u0094?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000106:\u000fstar_small_(54)2*\b\u0001\u0012\u000f\r%R>>\u0015\u00b4.\u0092?\u001d\u00ad\u00d8\u001f?\u0018\u0001(\u000107:\u000fstar_small_(55)2*\b\u0001\u0012\u000f\r\u0095b\u0099\u00be\u0015T'\u009c?\u001d\u00b0\u00d8\u001f?\u0018\u0004(\u00010\u0001:\u000fstar_small_(56)2\u001f\b\u0003\u0012\u000f\rT\u0095\u008a\u00be\u0015\u001dVq?\u001d\u00903\u001f?\u0018\u0002:\bWord_(8)2\u001c\b\u0003\u0012\u000f\r7\u00f67\u00be\u0015\u00f4A\u0087?\u001d\u00913\u001f?\u0018\u0002:\u0005WordL2\u001f\b\u0003\u0012\u000f\r\u0004\u00bcB>\u0015}\u0005q?\u001d\u00903\u001f?\u0018\u0002:\bWord_(9)2\u001f\b\u0003\u0012\u000f\r\u0019-\u0012\u00be\u0015\u00f8\u007f\u008e?\u001d\u00913\u001f?\u0018\u0001:\bWord_(7)2\u001f\b\u0003\u0012\u000f\r\u00a3@|>\u0015\u0090\u0092\u0087?\u001d\u008f3\u001f?\u0018\u0002:\bWord_(6)2 \b\u0003\u0012\u000f\r\u00ff\u00f1\u00bb=\u0015v^\u0097?\u001d\u008f3\u001f?\u0018\u0001:\tWord_(10)2\u001f\b\u0003\u0012\u000f\r\u0094\u008aq=\u0015\u0090\u00ee\u009c?\u001d\u008f3\u001f?\u0018\u0001:\bWord_(4)2\u001f\b\u0003\u0012\u000f\r\f\u00a9\u008d>\u0015\u000b\u00d8w?\u001d\u008e3\u001f?\u0018\u0002:\bWord_(3)2\u001f\b\u0003\u0012\u000f\r.\u00e5\u00e7\u00bd\u00154_\u0096?\u001d\u00913\u001f?\u0018\u0001:\bWord_(2)2\u001f\b\u0003\u0012\u000f\r5Ra\u00bd\u0015\u00864\u0087?\u001d\u00913\u001f?\u0018\u0002:\bWord_(1)2\u001f\b\u0003\u0012\u000f\r\u00b7\u00d3\u00c8\u00bd\u0015\u000f\u0085h?\u001d\u00913\u001f?\u0018\u0002:\bWord_(0):\b\b\u0001\u0010%\u0018\u0010 +:\b\b\u0002\u0010\u001c\u0018\n $:\b\b\u0003\u0010\u0019\u0018\u000e 8:\b\b\u0004\u0010\u001d\u0018\u000f 4B\u0004\b\u0002\u00104B\u0004\b\u0003\u0010\u000bB\n\b\u0001\u0010\u001d\u0018\u001d d(\u0001B\n\b\u0001\u0010\u001b\u0018\u001a `(\u0002H\u0002"
+        }
+    },
+    "backgroundImage": "",
+    "objectStats": [
+        {
+            "selectedAmountOfObjects": 0,
+            "direction": "DIRECTION_UNSPECIFIED",
+            "selectedPercentage": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "totalAmountOfObjects": 52
+        },
+        {
+            "cancellationObjectType": "WORD",
+            "totalAmountOfObjects": 11,
+            "direction": "DIRECTION_UNSPECIFIED",
+            "selectedPercentage": 0,
+            "selectedAmountOfObjects": 0
+        },
+        {
+            "cancellationObjectType": "SMALL_STAR",
+            "totalAmountOfObjects": 29,
+            "selectedPercentage": 100,
+            "direction": "LEFT",
+            "selectedAmountOfObjects": 29
+        },
+        {
+            "selectedAmountOfObjects": 26,
+            "totalAmountOfObjects": 27,
+            "direction": "RIGHT",
+            "cancellationObjectType": "SMALL_STAR",
+            "selectedPercentage": 96
+        }
+    ],
+    "headMovementBoundaries": [
+        {
+            "timesReachedBoundary": 23,
+            "direction": "LEFT"
+        },
+        {
+            "direction": "RIGHT",
+            "timesReachedBoundary": 25
+        }
+    ],
+    "id": "starcancellation-341980",
+    "objects": [
+        {
+            "id": "star_(52)",
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0,
+            "selected": false,
+            "coordinate": {
+                "z": 0.6234,
+                "y": 1.11410022,
+                "x": 0.121040076
+            }
+        },
+        {
+            "coordinate": {
+                "z": 0.623400152,
+                "y": 1.20512033,
+                "x": -0.269280136
+            },
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "selected": false,
+            "quadrant": "UPPER_LEFT",
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(51)"
+        },
+        {
+            "quadrant": "UPPER_LEFT",
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false,
+            "id": "star_(50)",
+            "sequencePosition": 0,
+            "coordinate": {
+                "y": 1.20676017,
+                "z": 0.623400152,
+                "x": -0.230740145
+            }
+        },
+        {
+            "quadrant": "UPPER_LEFT",
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "selected": false,
+            "coordinate": {
+                "x": -0.230330154,
+                "y": 1.14280009,
+                "z": 0.623400152
+            },
+            "id": "star_(49)"
+        },
+        {
+            "coordinate": {
+                "y": 1.08376026,
+                "z": 0.623400152,
+                "x": -0.229100123
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "id": "star_(48)",
+            "gazeDuration": 0,
+            "quadrant": "UPPER_LEFT",
+            "selected": false
+        },
+        {
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 1.10508013,
+                "x": -0.1840001
+            },
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "UPPER_LEFT",
+            "selected": false,
+            "id": "star_(47)",
+            "sequencePosition": 0
+        },
+        {
+            "quadrant": "UPPER_LEFT",
+            "id": "star_(46)",
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 1.16863036,
+                "x": -0.181950063
+            },
+            "sequencePosition": 0,
+            "selected": false
+        },
+        {
+            "selected": false,
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "UPPER_LEFT",
+            "id": "star_(45)",
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 1.20512033,
+                "x": -0.146690071
+            },
+            "gazeDuration": 0,
+            "sequencePosition": 0
+        },
+        {
+            "coordinate": {
+                "y": 1.14157009,
+                "x": -0.14177005,
+                "z": 0.6234001
+            },
+            "selected": false,
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(44)",
+            "quadrant": "UPPER_LEFT",
+            "sequencePosition": 0
+        },
+        {
+            "quadrant": "UPPER_LEFT",
+            "gazeDuration": 0,
+            "id": "star_(43)",
+            "sequencePosition": 0,
+            "coordinate": {
+                "x": -0.141360059,
+                "z": 0.6234001,
+                "y": 1.08581018
+            },
+            "selected": false,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "coordinate": {
+                "y": 1.02677035,
+                "z": 0.6234001,
+                "x": -0.144230068
+            },
+            "quadrant": "LOWER_LEFT",
+            "id": "star_(42)",
+            "gazeDuration": 0,
+            "selected": false,
+            "sequencePosition": 0
+        },
+        {
+            "gazeDuration": 0,
+            "quadrant": "LOWER_LEFT",
+            "sequencePosition": 0,
+            "coordinate": {
+                "y": 1.00053024,
+                "z": 0.6234001,
+                "x": -0.122910053
+            },
+            "id": "star_(41)",
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false
+        },
+        {
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false,
+            "quadrant": "LOWER_LEFT",
+            "id": "star_(40)",
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 0.969780147,
+                "x": -0.139720038
+            },
+            "gazeDuration": 0
+        },
+        {
+            "quadrant": "LOWER_LEFT",
+            "id": "star_(39)",
+            "selected": false,
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "coordinate": {
+                "z": 0.623400152,
+                "y": 1.0485003,
+                "x": -0.2409901
+            }
+        },
+        {
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(38)",
+            "quadrant": "UPPER_LEFT",
+            "selected": false,
+            "coordinate": {
+                "z": 0.623400152,
+                "y": 1.08950019,
+                "x": -0.269690126
+            }
+        },
+        {
+            "selected": false,
+            "quadrant": "LOWER_LEFT",
+            "gazeDuration": 0,
+            "coordinate": {
+                "y": 1.02554035,
+                "x": -0.270510137,
+                "z": 0.623400152
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "id": "star_(37)"
+        },
+        {
+            "quadrant": "LOWER_LEFT",
+            "sequencePosition": 0,
+            "coordinate": {
+                "z": 0.623400152,
+                "x": -0.229920119,
+                "y": 0.9689602
+            },
+            "gazeDuration": 0,
+            "id": "star_(36)",
+            "selected": false,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "id": "star_(35)",
+            "selected": false,
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "coordinate": {
+                "x": -0.238530144,
+                "z": 0.623400152,
+                "y": 0.9070503
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "LOWER_LEFT"
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(34)",
+            "gazeDuration": 0,
+            "quadrant": "LOWER_LEFT",
+            "sequencePosition": 0,
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 0.937390268,
+                "x": -0.122090079
+            },
+            "selected": false
+        },
+        {
+            "sequencePosition": 0,
+            "id": "star_(33)",
+            "coordinate": {
+                "z": 0.6234001,
+                "x": -0.09954001,
+                "y": 0.969780147
+            },
+            "quadrant": "LOWER_LEFT",
+            "cancellationObjectType": "BIG_STAR",
+            "gazeDuration": 0,
+            "selected": false
+        },
+        {
+            "sequencePosition": 0,
+            "coordinate": {
+                "y": 0.9726501,
+                "z": 0.6234001,
+                "x": -0.05813001
+            },
+            "id": "star_(32)",
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "LOWER_LEFT",
+            "gazeDuration": 0,
+            "selected": false
+        },
+        {
+            "sequencePosition": 0,
+            "id": "star_(31)",
+            "selected": false,
+            "coordinate": {
+                "y": 1.08376026,
+                "z": 0.6234001,
+                "x": -0.058950007
+            },
+            "gazeDuration": 0,
+            "quadrant": "UPPER_LEFT",
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "coordinate": {
+                "x": -0.06264001,
+                "y": 1.14321041,
+                "z": 0.6234001
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(30)",
+            "selected": false,
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "quadrant": "UPPER_LEFT"
+        },
+        {
+            "gazeDuration": 0,
+            "quadrant": "UPPER_LEFT",
+            "id": "star_(29)",
+            "sequencePosition": 0,
+            "selected": false,
+            "cancellationObjectType": "BIG_STAR",
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 1.17191029,
+                "x": -0.0388599969
+            }
+        },
+        {
+            "coordinate": {
+                "y": 1.20594025,
+                "z": 0.6234001,
+                "x": -0.0179499947
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(28)",
+            "selected": false,
+            "gazeDuration": 0,
+            "quadrant": "UPPER_RIGHT",
+            "sequencePosition": 0
+        },
+        {
+            "id": "star_(27)",
+            "quadrant": "UPPER_LEFT",
+            "gazeDuration": 0,
+            "selected": false,
+            "coordinate": {
+                "x": -0.0216399971,
+                "z": 0.6234001,
+                "y": 1.14239025
+            },
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "gazeDuration": 0,
+            "coordinate": {
+                "z": 0.6234001,
+                "y": 1.02800035,
+                "x": -0.0208199974
+            },
+            "sequencePosition": 0,
+            "selected": false,
+            "id": "star_(26)",
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "LOWER_LEFT"
+        },
+        {
+            "gazeDuration": 0,
+            "quadrant": "UPPER_RIGHT",
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false,
+            "sequencePosition": 0,
+            "id": "star_(25)",
+            "coordinate": {
+                "z": 0.623400033,
+                "y": 1.08704019,
+                "x": 0.0234600231
+            }
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "LOWER_RIGHT",
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "coordinate": {
+                "z": 0.623400033,
+                "x": 0.0242800228,
+                "y": 1.0509603
+            },
+            "selected": false,
+            "id": "star_(24)"
+        },
+        {
+            "selected": false,
+            "quadrant": "LOWER_RIGHT",
+            "id": "star_(23)",
+            "coordinate": {
+                "z": 0.6234,
+                "y": 0.997660339,
+                "x": 0.171060085
+            },
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "id": "star_(22)",
+            "quadrant": "LOWER_RIGHT",
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "selected": false,
+            "cancellationObjectType": "BIG_STAR",
+            "coordinate": {
+                "x": 0.190740138,
+                "y": 1.02882028,
+                "z": 0.6234
+            }
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(21)",
+            "coordinate": {
+                "y": 1.04809022,
+                "z": 0.6234,
+                "x": 0.152200043
+            },
+            "sequencePosition": 0,
+            "selected": false,
+            "gazeDuration": 0,
+            "quadrant": "LOWER_RIGHT"
+        },
+        {
+            "gazeDuration": 0,
+            "id": "star_(20)",
+            "selected": false,
+            "sequencePosition": 0,
+            "quadrant": "LOWER_RIGHT",
+            "coordinate": {
+                "x": 0.109970056,
+                "y": 1.02882028,
+                "z": 0.6234
+            },
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "selected": false,
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "gazeDuration": 0,
+            "id": "star_(19)",
+            "quadrant": "LOWER_RIGHT",
+            "coordinate": {
+                "y": 1.02718019,
+                "x": 0.0611800253,
+                "z": 0.623400033
+            }
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(18)",
+            "coordinate": {
+                "z": 0.623400033,
+                "y": 0.9689602,
+                "x": 0.06159003
+            },
+            "quadrant": "LOWER_RIGHT",
+            "selected": false,
+            "sequencePosition": 0,
+            "gazeDuration": 0
+        },
+        {
+            "selected": false,
+            "coordinate": {
+                "y": 0.970600069,
+                "z": 0.6234,
+                "x": 0.108740054
+            },
+            "gazeDuration": 0,
+            "quadrant": "LOWER_RIGHT",
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(17)",
+            "sequencePosition": 0
+        },
+        {
+            "quadrant": "LOWER_RIGHT",
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "coordinate": {
+                "z": 0.6234,
+                "x": 0.150970072,
+                "y": 0.97183007
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(16)",
+            "selected": false
+        },
+        {
+            "id": "star_(15)",
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false,
+            "gazeDuration": 0,
+            "quadrant": "LOWER_RIGHT",
+            "sequencePosition": 0,
+            "coordinate": {
+                "x": 0.254290074,
+                "z": 0.6234,
+                "y": 0.930420339
+            }
+        },
+        {
+            "id": "star_(14)",
+            "coordinate": {
+                "x": 0.254290074,
+                "y": 0.997250259,
+                "z": 0.6234
+            },
+            "selected": false,
+            "quadrant": "LOWER_RIGHT",
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "gazeDuration": 0
+        },
+        {
+            "selected": false,
+            "coordinate": {
+                "y": 1.17888021,
+                "z": 0.623400033,
+                "x": 0.0341200344
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "sequencePosition": 0,
+            "id": "star_(13)",
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0
+        },
+        {
+            "id": "star_(12)",
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "coordinate": {
+                "z": 0.623400033,
+                "x": 0.0275600255,
+                "y": 1.14608026
+            },
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false
+        },
+        {
+            "id": "star_(11)",
+            "selected": false,
+            "quadrant": "UPPER_RIGHT",
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "coordinate": {
+                "y": 1.14239025,
+                "x": 0.05995003,
+                "z": 0.623400033
+            },
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "y": 1.14239025,
+                "z": 0.6234,
+                "x": 0.110790074
+            },
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0,
+            "selected": false,
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(10)"
+        },
+        {
+            "coordinate": {
+                "x": 0.158760041,
+                "z": 0.6234,
+                "y": 1.17396021
+            },
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "selected": false,
+            "id": "star_(9)",
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "quadrant": "UPPER_RIGHT",
+            "coordinate": {
+                "x": 0.10915006,
+                "z": 0.6234,
+                "y": 1.20881009
+            },
+            "id": "star_(8)",
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "selected": false
+        },
+        {
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0,
+            "coordinate": {
+                "x": 0.151380077,
+                "y": 1.20840025,
+                "z": 0.6234
+            },
+            "selected": false,
+            "id": "star_(7)",
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "quadrant": "UPPER_RIGHT",
+            "coordinate": {
+                "z": 0.6234,
+                "y": 1.21127033,
+                "x": 0.194430143
+            },
+            "id": "star_(6)",
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR",
+            "selected": false
+        },
+        {
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "selected": false,
+            "cancellationObjectType": "BIG_STAR",
+            "gazeDuration": 0,
+            "id": "star_(5)",
+            "coordinate": {
+                "y": 1.17888021,
+                "x": 0.204270139,
+                "z": 0.6234
+            }
+        },
+        {
+            "quadrant": "UPPER_RIGHT",
+            "selected": false,
+            "id": "star_(4)",
+            "coordinate": {
+                "z": 0.6234,
+                "y": 1.14444041,
+                "x": 0.237070024
+            },
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "sequencePosition": 0,
+            "coordinate": {
+                "x": 0.235840112,
+                "z": 0.6234,
+                "y": 1.08991027
+            },
+            "id": "star_(3)",
+            "gazeDuration": 0,
+            "selected": false,
+            "quadrant": "UPPER_RIGHT",
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "cancellationObjectType": "BIG_STAR",
+            "id": "star_(2)",
+            "gazeDuration": 0,
+            "quadrant": "UPPER_RIGHT",
+            "coordinate": {
+                "y": 1.08827019,
+                "z": 0.6234,
+                "x": 0.190330133
+            },
+            "selected": false,
+            "sequencePosition": 0
+        },
+        {
+            "quadrant": "UPPER_RIGHT",
+            "id": "star_(1)",
+            "gazeDuration": 0,
+            "coordinate": {
+                "z": 0.6234,
+                "y": 1.08663034,
+                "x": 0.147280067
+            },
+            "selected": false,
+            "sequencePosition": 0,
+            "cancellationObjectType": "BIG_STAR"
+        },
+        {
+            "gazeDuration": 0,
+            "id": "star_small_(1)",
+            "quadrant": "UPPER_LEFT",
+            "sequencePosition": 2,
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "x": -0.282360226,
+                "y": 1.17239022,
+                "z": 0.624400139
+            },
+            "selected": true
+        },
+        {
+            "coordinate": {
+                "z": 0.624400139,
+                "y": 1.1539402,
+                "x": -0.263090223
+            },
+            "sequencePosition": 3,
+            "quadrant": "UPPER_LEFT",
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "gazeDuration": 0,
+            "id": "star_small_(2)"
+        },
+        {
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 4,
+            "selected": true,
+            "id": "star_small_(3)",
+            "quadrant": "UPPER_LEFT",
+            "coordinate": {
+                "x": -0.277030259,
+                "y": 1.1363101,
+                "z": 0.624400139
+            }
+        },
+        {
+            "id": "star_small_(4)",
+            "coordinate": {
+                "z": 0.624400139,
+                "y": 1.11253023,
+                "x": -0.289330244
+            },
+            "quadrant": "UPPER_LEFT",
+            "gazeDuration": 0,
+            "sequencePosition": 5,
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true
+        },
+        {
+            "quadrant": "LOWER_LEFT",
+            "id": "star_small_(5)",
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 6,
+            "coordinate": {
+                "y": 1.06497025,
+                "z": 0.624400139,
+                "x": -0.287690222
+            },
+            "gazeDuration": 0
+        },
+        {
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(6)",
+            "quadrant": "LOWER_LEFT",
+            "selected": true,
+            "sequencePosition": 10,
+            "gazeDuration": 0,
+            "coordinate": {
+                "y": 0.990350068,
+                "z": 0.624400139,
+                "x": -0.2729302
+            }
+        },
+        {
+            "sequencePosition": 11,
+            "coordinate": {
+                "x": -0.2753902,
+                "y": 0.9661601,
+                "z": 0.624400139
+            },
+            "selected": true,
+            "quadrant": "LOWER_LEFT",
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "id": "star_small_(7)"
+        },
+        {
+            "gazeDuration": 0,
+            "coordinate": {
+                "z": 0.6244,
+                "x": -0.198310122,
+                "y": 0.9641101
+            },
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(8)",
+            "quadrant": "LOWER_LEFT",
+            "selected": true,
+            "sequencePosition": 12
+        },
+        {
+            "id": "star_small_(9)",
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "y": 0.9030201,
+                "x": -0.174940139,
+                "z": 0.6244
+            },
+            "selected": true,
+            "sequencePosition": 14,
+            "quadrant": "LOWER_LEFT"
+        },
+        {
+            "quadrant": "LOWER_LEFT",
+            "selected": true,
+            "id": "star_small_(10)",
+            "sequencePosition": 13,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "coordinate": {
+                "z": 0.6244,
+                "y": 0.9805103,
+                "x": -0.173710138
+            }
+        },
+        {
+            "coordinate": {
+                "y": 1.02520013,
+                "z": 0.6244,
+                "x": -0.195030108
+            },
+            "sequencePosition": 9,
+            "quadrant": "LOWER_LEFT",
+            "selected": true,
+            "id": "star_small_(11)",
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "y": 1.04324031,
+                "z": 0.624400139,
+                "x": -0.212250218
+            },
+            "sequencePosition": 8,
+            "quadrant": "LOWER_LEFT",
+            "id": "star_small_(12)",
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "selected": true
+        },
+        {
+            "sequencePosition": 7,
+            "coordinate": {
+                "z": 0.6244,
+                "y": 1.07850027,
+                "x": -0.195850119
+            },
+            "quadrant": "UPPER_LEFT",
+            "id": "star_small_(13)",
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "gazeDuration": 0
+        },
+        {
+            "id": "star_small_(14)",
+            "selected": true,
+            "sequencePosition": 29,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "quadrant": "UPPER_LEFT",
+            "coordinate": {
+                "x": -0.19667013,
+                "y": 1.13385034,
+                "z": 0.6244
+            }
+        },
+        {
+            "selected": true,
+            "sequencePosition": 28,
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(15)",
+            "coordinate": {
+                "x": -0.1970801,
+                "z": 0.6244,
+                "y": 1.19863033
+            },
+            "quadrant": "UPPER_LEFT",
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "x": -0.109340064,
+                "y": 1.20027018,
+                "z": 0.6244001
+            },
+            "id": "star_small_(16)",
+            "quadrant": "UPPER_LEFT",
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "gazeDuration": 0,
+            "sequencePosition": 31
+        },
+        {
+            "coordinate": {
+                "z": 0.6244001,
+                "y": 1.20027018,
+                "x": -0.0687500462
+            },
+            "sequencePosition": 32,
+            "gazeDuration": 0,
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(17)",
+            "quadrant": "UPPER_LEFT"
+        },
+        {
+            "gazeDuration": 0,
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 30,
+            "id": "star_small_(18)",
+            "coordinate": {
+                "x": -0.08638006,
+                "y": 1.21544027,
+                "z": 0.6244001
+            },
+            "quadrant": "UPPER_LEFT"
+        },
+        {
+            "sequencePosition": 33,
+            "coordinate": {
+                "z": 0.6244001,
+                "x": 0.0144800348,
+                "y": 1.19986033
+            },
+            "selected": true,
+            "id": "star_small_(19)",
+            "quadrant": "UPPER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0
+        },
+        {
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0,
+            "id": "star_small_(20)",
+            "coordinate": {
+                "z": 0.6244,
+                "y": 1.21298027,
+                "x": 0.028420072
+            },
+            "sequencePosition": 34,
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true
+        },
+        {
+            "sequencePosition": 35,
+            "coordinate": {
+                "y": 1.20109034,
+                "x": 0.0530200675,
+                "z": 0.6244
+            },
+            "id": "star_small_(21)",
+            "quadrant": "UPPER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "gazeDuration": 0
+        },
+        {
+            "selected": true,
+            "id": "star_small_(22)",
+            "sequencePosition": 53,
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "x": 0.165360138,
+                "z": 0.62439996,
+                "y": 1.2187202
+            }
+        },
+        {
+            "coordinate": {
+                "y": 1.23553038,
+                "z": 0.62439996,
+                "x": 0.262120247
+            },
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "sequencePosition": 52,
+            "gazeDuration": 0,
+            "id": "star_small_(23)",
+            "quadrant": "UPPER_RIGHT"
+        },
+        {
+            "gazeDuration": 0,
+            "sequencePosition": 50,
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(24)",
+            "quadrant": "UPPER_RIGHT",
+            "selected": true,
+            "coordinate": {
+                "z": 0.62439996,
+                "y": 1.20847034,
+                "x": 0.2588403
+            }
+        },
+        {
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "quadrant": "UPPER_RIGHT",
+            "sequencePosition": 49,
+            "gazeDuration": 0,
+            "id": "star_small_(25)",
+            "coordinate": {
+                "z": 0.62439996,
+                "y": 1.18961024,
+                "x": 0.271550238
+            }
+        },
+        {
+            "coordinate": {
+                "y": 1.14492011,
+                "x": 0.274830252,
+                "z": 0.62439996
+            },
+            "cancellationObjectType": "SMALL_STAR",
+            "quadrant": "UPPER_RIGHT",
+            "sequencePosition": -1,
+            "id": "star_small_(26)",
+            "gazeDuration": 0,
+            "selected": false
+        },
+        {
+            "quadrant": "UPPER_RIGHT",
+            "sequencePosition": 47,
+            "coordinate": {
+                "z": 0.62439996,
+                "x": 0.26458025,
+                "y": 1.11827016
+            },
+            "id": "star_small_(27)",
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "selected": true
+        },
+        {
+            "id": "star_small_(28)",
+            "gazeDuration": 0,
+            "selected": true,
+            "coordinate": {
+                "x": 0.26540032,
+                "y": 1.08219028,
+                "z": 0.62439996
+            },
+            "sequencePosition": 46,
+            "quadrant": "UPPER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR"
+        },
+        {
+            "coordinate": {
+                "y": 1.04570031,
+                "z": 0.62439996,
+                "x": 0.298200279
+            },
+            "id": "star_small_(29)",
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 45,
+            "selected": true,
+            "quadrant": "LOWER_RIGHT"
+        },
+        {
+            "id": "star_small_(30)",
+            "coordinate": {
+                "x": 0.295740277,
+                "y": 0.9977301,
+                "z": 0.62439996
+            },
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "quadrant": "LOWER_RIGHT",
+            "selected": true,
+            "sequencePosition": 44
+        },
+        {
+            "gazeDuration": 0,
+            "coordinate": {
+                "x": 0.2018502,
+                "y": 0.9801001,
+                "z": 0.62439996
+            },
+            "sequencePosition": 43,
+            "selected": true,
+            "id": "star_small_(31)",
+            "quadrant": "LOWER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR"
+        },
+        {
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 42,
+            "id": "star_small_(32)",
+            "gazeDuration": 0,
+            "coordinate": {
+                "y": 0.9661601,
+                "z": 0.62439996,
+                "x": 0.185450226
+            },
+            "selected": true,
+            "quadrant": "LOWER_RIGHT"
+        },
+        {
+            "coordinate": {
+                "y": 0.930080235,
+                "x": 0.135840118,
+                "z": 0.62439996
+            },
+            "sequencePosition": 41,
+            "quadrant": "LOWER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "selected": true,
+            "id": "star_small_(33)"
+        },
+        {
+            "sequencePosition": 19,
+            "quadrant": "LOWER_RIGHT",
+            "gazeDuration": 0,
+            "selected": true,
+            "coordinate": {
+                "z": 0.6244001,
+                "y": 0.9673901,
+                "x": 0.0165300369
+            },
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(34)"
+        },
+        {
+            "cancellationObjectType": "SMALL_STAR",
+            "quadrant": "LOWER_RIGHT",
+            "sequencePosition": 20,
+            "gazeDuration": 0,
+            "id": "star_small_(35)",
+            "selected": true,
+            "coordinate": {
+                "x": 0.00956003647,
+                "y": 1.02110028,
+                "z": 0.6244001
+            }
+        },
+        {
+            "selected": true,
+            "id": "star_small_(36)",
+            "coordinate": {
+                "y": 1.00388026,
+                "z": 0.6244,
+                "x": 0.03047006
+            },
+            "gazeDuration": 0,
+            "quadrant": "LOWER_RIGHT",
+            "sequencePosition": 18,
+            "cancellationObjectType": "SMALL_STAR"
+        },
+        {
+            "sequencePosition": 17,
+            "quadrant": "LOWER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(37)",
+            "selected": true,
+            "gazeDuration": 0,
+            "coordinate": {
+                "y": 0.9817403,
+                "z": 0.62449,
+                "x": -0.00279999
+            }
+        },
+        {
+            "coordinate": {
+                "y": 0.9661601,
+                "z": 0.6244001,
+                "x": -0.0269300062
+            },
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 16,
+            "gazeDuration": 0,
+            "selected": true,
+            "quadrant": "LOWER_LEFT",
+            "id": "star_small_(38)"
+        },
+        {
+            "quadrant": "LOWER_LEFT",
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "z": 0.6244001,
+                "x": -0.06670004,
+                "y": 0.9333603
+            },
+            "gazeDuration": 0,
+            "selected": true,
+            "id": "star_small_(39)",
+            "sequencePosition": 15
+        },
+        {
+            "coordinate": {
+                "y": 1.0219202,
+                "x": -0.0654700249,
+                "z": 0.6244001
+            },
+            "sequencePosition": 22,
+            "gazeDuration": 0,
+            "selected": true,
+            "quadrant": "LOWER_LEFT",
+            "id": "star_small_(40)",
+            "cancellationObjectType": "SMALL_STAR"
+        },
+        {
+            "sequencePosition": 21,
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "quadrant": "LOWER_LEFT",
+            "id": "star_small_(41)",
+            "coordinate": {
+                "x": -0.086790055,
+                "z": 0.6244001,
+                "y": 1.00798035
+            }
+        },
+        {
+            "selected": true,
+            "coordinate": {
+                "x": -0.104420066,
+                "z": 0.6244001,
+                "y": 1.0170002
+            },
+            "id": "star_small_(42)",
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 24,
+            "gazeDuration": 0,
+            "quadrant": "LOWER_LEFT"
+        },
+        {
+            "gazeDuration": 0,
+            "id": "star_small_(43)",
+            "sequencePosition": 23,
+            "quadrant": "LOWER_LEFT",
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "z": 0.6244001,
+                "x": -0.0929400548,
+                "y": 1.0370903
+            }
+        },
+        {
+            "sequencePosition": 25,
+            "id": "star_small_(44)",
+            "quadrant": "UPPER_LEFT",
+            "selected": true,
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "y": 1.07932019,
+                "z": 0.6244001,
+                "x": -0.110570073
+            }
+        },
+        {
+            "coordinate": {
+                "x": -0.10811007,
+                "y": 1.1350801,
+                "z": 0.6244001
+            },
+            "id": "star_small_(45)",
+            "sequencePosition": 27,
+            "quadrant": "UPPER_LEFT",
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0
+        },
+        {
+            "quadrant": "UPPER_LEFT",
+            "sequencePosition": 26,
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "coordinate": {
+                "x": -0.09043906,
+                "z": 0.6244001,
+                "y": 1.10732317
+            },
+            "id": "star_small_(46)"
+        },
+        {
+            "coordinate": {
+                "x": -0.028611,
+                "y": 1.07800841,
+                "z": 0.6244001
+            },
+            "gazeDuration": 0,
+            "id": "star_small_(47)",
+            "cancellationObjectType": "SMALL_STAR",
+            "quadrant": "UPPER_LEFT",
+            "sequencePosition": 57,
+            "selected": true
+        },
+        {
+            "coordinate": {
+                "x": 0.0300600566,
+                "y": 1.11868024,
+                "z": 0.6244
+            },
+            "selected": true,
+            "sequencePosition": 37,
+            "gazeDuration": 0,
+            "id": "star_small_(48)",
+            "cancellationObjectType": "SMALL_STAR",
+            "quadrant": "UPPER_RIGHT"
+        },
+        {
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0,
+            "quadrant": "UPPER_RIGHT",
+            "id": "star_small_(49)",
+            "coordinate": {
+                "x": 0.07475011,
+                "z": 0.6244,
+                "y": 1.15312028
+            },
+            "sequencePosition": 36
+        },
+        {
+            "sequencePosition": 39,
+            "quadrant": "UPPER_RIGHT",
+            "coordinate": {
+                "y": 1.09326029,
+                "z": 0.6244,
+                "x": 0.07475011
+            },
+            "selected": true,
+            "gazeDuration": 0,
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(50)"
+        },
+        {
+            "sequencePosition": 38,
+            "cancellationObjectType": "SMALL_STAR",
+            "coordinate": {
+                "x": 0.0558900647,
+                "y": 1.08055019,
+                "z": 0.6244
+            },
+            "gazeDuration": 0,
+            "id": "star_small_(51)",
+            "quadrant": "UPPER_RIGHT",
+            "selected": true
+        },
+        {
+            "gazeDuration": 0,
+            "selected": true,
+            "coordinate": {
+                "x": 0.1391201,
+                "y": 1.02479029,
+                "z": 0.62439996
+            },
+            "quadrant": "LOWER_RIGHT",
+            "cancellationObjectType": "SMALL_STAR",
+            "sequencePosition": 40,
+            "id": "star_small_(52)"
+        },
+        {
+            "sequencePosition": 56,
+            "quadrant": "UPPER_RIGHT",
+            "coordinate": {
+                "y": 1.14082026,
+                "x": 0.1432201,
+                "z": 0.62439996
+            },
+            "id": "star_small_(53)",
+            "cancellationObjectType": "SMALL_STAR",
+            "selected": true,
+            "gazeDuration": 0
+        },
+        {
+            "selected": true,
+            "quadrant": "UPPER_RIGHT",
+            "id": "star_small_(54)",
+            "sequencePosition": 54,
+            "gazeDuration": 0,
+            "coordinate": {
+                "y": 1.15722013,
+                "x": 0.162080139,
+                "z": 0.62439996
+            },
+            "cancellationObjectType": "SMALL_STAR"
+        },
+        {
+            "selected": true,
+            "sequencePosition": 55,
+            "coordinate": {
+                "z": 0.62439996,
+                "y": 1.14205027,
+                "x": 0.185860232
+            },
+            "cancellationObjectType": "SMALL_STAR",
+            "id": "star_small_(55)",
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "z": 0.624400139,
+                "y": 1.2199502,
+                "x": -0.299580246
+            },
+            "id": "star_small_(56)",
+            "sequencePosition": 1,
+            "quadrant": "UPPER_LEFT",
+            "selected": true,
+            "cancellationObjectType": "SMALL_STAR",
+            "gazeDuration": 0
+        },
+        {
+            "selected": false,
+            "cancellationObjectType": "WORD",
+            "gazeDuration": 0,
+            "id": "Word_(8)",
+            "coordinate": {
+                "z": 0.621880531,
+                "x": -0.270670533,
+                "y": 0.942720234
+            },
+            "quadrant": "LOWER_RIGHT",
+            "sequencePosition": 0
+        },
+        {
+            "gazeDuration": 0,
+            "id": "WordL",
+            "sequencePosition": 0,
+            "coordinate": {
+                "z": 0.6218806,
+                "y": 1.05670023,
+                "x": -0.179650173
+            },
+            "selected": false,
+            "cancellationObjectType": "WORD",
+            "quadrant": "LOWER_RIGHT"
+        },
+        {
+            "cancellationObjectType": "WORD",
+            "sequencePosition": 0,
+            "id": "Word_(9)",
+            "coordinate": {
+                "y": 0.94149,
+                "x": 0.190170348,
+                "z": 0.621880531
+            },
+            "selected": false,
+            "quadrant": "LOWER_RIGHT",
+            "gazeDuration": 0
+        },
+        {
+            "selected": false,
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "id": "Word_(7)",
+            "coordinate": {
+                "z": 0.6218806,
+                "y": 1.1132803,
+                "x": -0.142750159
+            },
+            "cancellationObjectType": "WORD",
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "x": 0.24634032,
+                "y": 1.05916023,
+                "z": 0.6218805
+            },
+            "cancellationObjectType": "WORD",
+            "selected": false,
+            "sequencePosition": 0,
+            "quadrant": "LOWER_RIGHT",
+            "id": "Word_(6)",
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "x": 0.0917701647,
+                "y": 1.18257022,
+                "z": 0.6218805
+            },
+            "gazeDuration": 0,
+            "id": "Word_(10)",
+            "cancellationObjectType": "WORD",
+            "quadrant": "UPPER_RIGHT",
+            "sequencePosition": 0,
+            "selected": false
+        },
+        {
+            "id": "Word_(4)",
+            "coordinate": {
+                "y": 1.22603035,
+                "z": 0.6218805,
+                "x": 0.05897005
+            },
+            "quadrant": "UPPER_RIGHT",
+            "gazeDuration": 0,
+            "selected": false,
+            "cancellationObjectType": "WORD",
+            "sequencePosition": 0
+        },
+        {
+            "selected": false,
+            "coordinate": {
+                "z": 0.6218804,
+                "y": 0.9681403,
+                "x": 0.27668035
+            },
+            "gazeDuration": 0,
+            "id": "Word_(3)",
+            "cancellationObjectType": "WORD",
+            "sequencePosition": 0,
+            "quadrant": "LOWER_RIGHT"
+        },
+        {
+            "cancellationObjectType": "WORD",
+            "sequencePosition": 0,
+            "quadrant": "UPPER_RIGHT",
+            "id": "Word_(2)",
+            "coordinate": {
+                "z": 0.6218806,
+                "y": 1.17478037,
+                "x": -0.113230094
+            },
+            "selected": false,
+            "gazeDuration": 0
+        },
+        {
+            "coordinate": {
+                "z": 0.6218806,
+                "y": 1.05629039,
+                "x": -0.05501004
+            },
+            "sequencePosition": 0,
+            "gazeDuration": 0,
+            "cancellationObjectType": "WORD",
+            "quadrant": "LOWER_RIGHT",
+            "id": "Word_(1)",
+            "selected": false
+        },
+        {
+            "selected": false,
+            "gazeDuration": 0,
+            "sequencePosition": 0,
+            "quadrant": "LOWER_RIGHT",
+            "id": "Word_(0)",
+            "cancellationObjectType": "WORD",
+            "coordinate": {
+                "z": 0.6218806,
+                "x": -0.098060064,
+                "y": 0.9082803
+            }
+        }
+    ],
+    "timeElapsed": {
+        "start": "2024-11-26T15:32:55.032Z",
+        "stop": "2024-11-26T15:34:47.331Z"
+    },
+    "type": "STARCANCELLATION",
+    "quadrantStats": [
+        {
+            "quadrantType": "UPPER_RIGHT",
+            "selectedAmountOfObjects": 16,
+            "selectedPercentage": 43,
+            "totalAmountOfObjects": 37
+        },
+        {
+            "quadrantType": "LOWER_RIGHT",
+            "selectedPercentage": 36,
+            "totalAmountOfObjects": 28,
+            "selectedAmountOfObjects": 10
+        },
+        {
+            "selectedPercentage": 56,
+            "quadrantType": "LOWER_LEFT",
+            "selectedAmountOfObjects": 14,
+            "totalAmountOfObjects": 25
+        },
+        {
+            "selectedAmountOfObjects": 15,
+            "quadrantType": "UPPER_LEFT",
+            "totalAmountOfObjects": 29,
+            "selectedPercentage": 52
+        }
+    ]
+}

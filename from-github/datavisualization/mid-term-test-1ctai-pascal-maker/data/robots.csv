@@ -1,0 +1,6 @@
+id,name,location,ip_address
+1,Astra,Lab 1,10.0.1.21
+2,Bolt,Hallway Dock,10.0.1.22
+3,Cleo,Workshop A,10.0.1.23
+4,Drift,Charging Bay,10.0.1.24
+5,Echo,Storage Room,10.0.1.25

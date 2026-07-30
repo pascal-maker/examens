@@ -1,0 +1,22 @@
+{
+  "name": "codejs---------------------------------------------------------------------------------------------------------------------If-you-cant-find-it-------------------------------------------------------------------------------------1-Figma-logo--Plugins--Development--New-Plugin-------------2-This-time-when-the-save-dialog-appears-save-it-to-your-----Desktop--------------------------------------------------------3-A-folder-called-Wire-Prototype-or-whatever-you-named-it----will-appear-on-your-Desktop---------------------------------4-Open-that-folder--codejs-is-inside------------------------5-Open-codejs-with-any-text-editor-TextEdit-VS-Code-----anything------------------------------------------------------6-Select-all-the-text-inside-and-replace-it-with-my-script---7-Save-the-file----------------------------------------------------------------",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@figma/eslint-plugin-figma-plugins": "*",
+    "@figma/plugin-typings": "*",
+    "eslint": "^9.39.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.1"
+  }
+}

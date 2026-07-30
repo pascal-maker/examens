@@ -19,6 +19,21 @@ Private archive of exam-related material.
   - Source: `pascal-maker/c-`
 - `from-github/c-/thirdtime.sln`
   - Source: `pascal-maker/c-`
+- `from-github/machinelearning/`
+  - Source: `pascal-maker/machinelearning`
+  - Contains machine learning lab exam and assignment notebooks.
+- `from-github/datavisualization/lab05_birds/`
+  - Source: `pascal-maker/datavisualization`
+- `from-github/datavisualization/mid-term-test-1ctai-pascal-maker/`
+  - Source: `pascal-maker/datavisualization`
+- `from-github/datavisualization/final-assignment/`
+  - Source: `pascal-maker/datavisualization`
+- `from-github/datavisualization/fastapi_project/`
+  - Source: `pascal-maker/datavisualization`
+- `from-github/datavisualization/git-fundamentals/`
+  - Source: `pascal-maker/datavisualization`
+- `from-github/datavisualization/chess/`
+  - Source: `pascal-maker/datavisualization`
 
 ## Notes
 
