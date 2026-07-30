@@ -1,0 +1,24 @@
+# 1️⃣ Use a lightweight Python image, name this `base` for now.
+FROM python:3.14-slim AS base
+
+# 2️⃣ Set working directory
+WORKDIR /app
+
+# 3️⃣ Copy only dependencies first (for caching)
+COPY requirements.txt .
+
+# 4️⃣ Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 5️⃣ Copy the application code
+COPY . .
+
+# 6️⃣ Expose port
+EXPOSE 8000
+
+# 7️⃣ Use a non-root user (security best practice)
+RUN useradd -m appuser
+USER appuser
+
+# 8️⃣ Run FastAPI app
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,0 +1,25 @@
+services:
+  api:
+    hostname: my-storage-api
+    build:
+      context: api
+    image: docker-networking-demo_api
+    expose:
+      - 80
+    networks:
+      - demo_network
+  client:
+    build:
+      context: client
+    image: docker-networking-demo_client
+    expose:
+      - 80
+    networks:
+      - demo_network
+
+
+networks:
+  demo_network:
+    driver: bridge
+    external: false
+    internal: false

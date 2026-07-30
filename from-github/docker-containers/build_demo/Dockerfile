@@ -1,0 +1,17 @@
+# 1️⃣ Use an official Python image as the base
+FROM python:3.13
+
+# 2️⃣ Set the working directory inside the container
+WORKDIR /app
+
+# 3️⃣ Copy the application code into the container
+COPY . .
+
+# 4️⃣ Install dependencies
+RUN pip install --no-cache-dir fastapi uvicorn
+
+# 5️⃣ Expose the port FastAPI runs on
+EXPOSE 8000
+
+# 6️⃣ Default command to run the application
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

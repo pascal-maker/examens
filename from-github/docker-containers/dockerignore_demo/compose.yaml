@@ -1,0 +1,9 @@
+services:
+  without-ignore:
+    build:
+      context: ./without-ignore
+    image: dockerignore-demo_without-ignore
+  with-ignore:
+    build:
+      context: ./with-ignore
+    image: dockerignore-demo_with-ignore

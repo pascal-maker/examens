@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Warmup Status UI</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6f8fa; margin: 0; padding: 32px; }
+    .card { max-width: 980px; margin: 0 auto; background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 24px; }
+    h1 { margin-top: 0; }
+    .row { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .dot { width: 16px; height: 16px; border-radius: 50%; background: #ff9800; box-shadow: 0 0 0 4px rgba(255, 152, 0, 0.2); }
+    .healthy { background: #2e7d32; box-shadow: 0 0 0 4px rgba(46, 125, 50, 0.2); }
+    .neutral { background: #9ca3af; box-shadow: 0 0 0 4px rgba(156, 163, 175, 0.2); }
+    .label { color: #666; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .panel { border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px; background: #fafafa; }
+    pre { background: #111; color: #d9f99d; padding: 12px; border-radius: 8px; overflow-x: auto; margin: 0; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Always-On Status UI</h1>
+    <p class="label">This page starts immediately, polls API health, and shows runtime state via Docker socket-backed `state-api`.</p>
+
+    <div class="grid">
+      <section class="panel">
+        <h3>API health (from /api/health)</h3>
+        <div class="row">
+          <div id="apiHealthDot" class="dot"></div>
+          <strong id="apiHealthStatus">starting</strong>
+        </div>
+        <p id="apiHealthDetails">Waiting for API healthcheck...</p>
+        <pre id="apiHealthPayload">{}</pre>
+      </section>
+
+      <section class="panel">
+        <h3>API container state</h3>
+        <div class="row">
+          <div id="apiStateDot" class="dot neutral"></div>
+          <strong id="apiStateStatus">unknown</strong>
+        </div>
+        <p id="apiStateDetails">Waiting for container state...</p>
+        <pre id="apiStatePayload">{}</pre>
+      </section>
+
+      <section class="panel">
+        <h3>delayed-ui container state</h3>
+        <div class="row">
+          <div id="uiDot" class="dot neutral"></div>
+          <strong id="uiStatus">unknown</strong>
+        </div>
+        <p id="uiDetails">Waiting for container state...</p>
+        <pre id="uiPayload">{}</pre>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const apiHealthDot = document.getElementById('apiHealthDot');
+    const apiHealthStatus = document.getElementById('apiHealthStatus');
+    const apiHealthDetails = document.getElementById('apiHealthDetails');
+    const apiHealthPayload = document.getElementById('apiHealthPayload');
+
+    const apiStateDot = document.getElementById('apiStateDot');
+    const apiStateStatus = document.getElementById('apiStateStatus');
+    const apiStateDetails = document.getElementById('apiStateDetails');
+    const apiStatePayload = document.getElementById('apiStatePayload');
+
+    const uiDot = document.getElementById('uiDot');
+    const uiStatus = document.getElementById('uiStatus');
+    const uiDetails = document.getElementById('uiDetails');
+    const uiPayload = document.getElementById('uiPayload');
+
+    function setDotState(dot, state) {
+      dot.classList.remove('healthy', 'neutral');
+      if (state === 'green') {
+        dot.classList.add('healthy');
+      } else if (state === 'gray') {
+        dot.classList.add('neutral');
+      }
+    }
+
+    async function pollApiHealth() {
+      try {
+        const res = await fetch('/api/health', { cache: 'no-store' });
+        const data = await res.json();
+        apiHealthPayload.textContent = JSON.stringify(data, null, 2);
+
+        if (res.ok && data.status === 'healthy') {
+          setDotState(apiHealthDot, 'green');
+          apiHealthStatus.textContent = 'healthy';
+          apiHealthDetails.textContent = 'API is healthy. Dot is green.';
+        } else {
+          setDotState(apiHealthDot, 'orange');
+          apiHealthStatus.textContent = data.status || 'starting';
+          apiHealthDetails.textContent = `API warming up. Remaining seconds: ${data.remaining_seconds ?? '?'}. Dot is orange.`;
+        }
+      } catch (error) {
+        setDotState(apiHealthDot, 'orange');
+        apiHealthStatus.textContent = 'unreachable';
+        apiHealthDetails.textContent = 'API not reachable. Dot is orange.';
+        apiHealthPayload.textContent = JSON.stringify({ error: String(error) }, null, 2);
+      }
+    }
+
+    function renderContainerState(state, dotEl, statusEl, detailsEl, payloadEl) {
+      payloadEl.textContent = JSON.stringify(state, null, 2);
+      const status = state.container_status || 'unknown';
+      statusEl.textContent = status;
+
+      if (!state.found || status === 'not-created') {
+        setDotState(dotEl, 'gray');
+        detailsEl.textContent = 'Container not created.';
+        return;
+      }
+
+      if (status === 'running') {
+        setDotState(dotEl, 'green');
+        detailsEl.textContent = 'Container is running.';
+      } else {
+        setDotState(dotEl, 'orange');
+        detailsEl.textContent = `Container state: ${status}.`;
+      }
+    }
+
+    async function pollContainer(service, dotEl, statusEl, detailsEl, payloadEl) {
+      try {
+        const res = await fetch(`/state/containers/${service}`, { cache: 'no-store' });
+        const data = await res.json();
+        renderContainerState(data, dotEl, statusEl, detailsEl, payloadEl);
+      } catch (error) {
+        setDotState(dotEl, 'orange');
+        statusEl.textContent = 'state-api-error';
+        detailsEl.textContent = 'Could not read Docker state.';
+        payloadEl.textContent = JSON.stringify({ error: String(error) }, null, 2);
+      }
+    }
+
+    async function pollAll() {
+      await Promise.all([
+        pollApiHealth(),
+        pollContainer('api', apiStateDot, apiStateStatus, apiStateDetails, apiStatePayload),
+        pollContainer('delayed-ui', uiDot, uiStatus, uiDetails, uiPayload),
+      ]);
+    }
+
+    pollAll();
+    setInterval(pollAll, 1000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+services:
+  api:
+    hostname: my-storage-api
+    build:
+      context: api
+    image: docker-networking-demo_api
+    volumes:
+      - ./data:/mnt/data/storage
+    ports:
+      - 8080:80
+    networks:
+      - closed
+
+  client:
+    hostname: client
+    build:
+      context: client
+    image: docker-networking-demo_client
+    ports:
+      - 8081:80
+    networks:
+      - closed
+      - open
+
+networks:
+  closed:
+    internal: true
+  open:
+    internal: false

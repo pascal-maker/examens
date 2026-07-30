@@ -1,0 +1,50 @@
+services:
+  api:
+    build:
+      context: ./api
+    image: depends-on-health-demo_api
+    environment:
+      - WARMUP_SECONDS=20
+    ports:
+      - 8092:80
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import sys, urllib.request;\ntry:\n r=urllib.request.urlopen('http://localhost/health');\n sys.exit(0 if r.status==200 else 1)\nexcept Exception:\n sys.exit(1)",
+        ]
+      interval: 2s
+      timeout: 1s
+      retries: 20
+      start_period: 1s
+
+  state-api:
+    build:
+      context: ./state-api
+    image: depends-on-health-demo_state-api
+    environment:
+      - COMPOSE_PROJECT=depends_on_health_demo
+      - MANAGED_SERVICES=api,delayed-ui
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  status-ui:
+    build:
+      context: ./status-ui
+    image: depends-on-health-demo_status-ui
+    ports:
+      - 8090:80
+    depends_on:
+      - state-api
+
+  delayed-ui:
+    build:
+      context: ./delayed-ui
+    image: depends-on-health-demo_delayed-ui
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - 8091:80

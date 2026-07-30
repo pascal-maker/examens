@@ -1,0 +1,16 @@
+name: demo-client
+services:
+    client:
+        hostname: my-storage-client
+        build:
+            context: client
+        image: docker-networking-demo_client
+        ports:
+            - 8081:80
+        networks:
+          - external_network_demo
+
+networks:
+  external_network_demo:
+    name: external_network_demo
+    external: false

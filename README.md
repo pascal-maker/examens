@@ -34,6 +34,18 @@ Private archive of exam-related material.
   - Source: `pascal-maker/datavisualization`
 - `from-github/datavisualization/chess/`
   - Source: `pascal-maker/datavisualization`
+- `from-github/deeplearning/`
+  - Source: `pascal-maker/deeplearning`
+  - Contains the deep learning lab exam notebook and course assignment notebooks.
+  - Dataset/cache/model checkpoint folders and files were excluded.
+- `from-github/reinforcementlearning/`
+  - Source: `pascal-maker/reinforcementlearning`
+  - Contains the reinforcement learning lab exam notebooks and assignments.
+  - Python and notebook cache folders were excluded.
+- `from-github/docker-containers/`
+  - Source: `pascal-maker/docker`
+  - Contains Docker, containers, and Kubernetes lab material.
+  - Git metadata, dependency folders, and build output folders were excluded.
 
 ## Notes
 

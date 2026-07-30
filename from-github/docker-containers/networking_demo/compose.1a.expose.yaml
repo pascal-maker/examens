@@ -1,0 +1,16 @@
+services:
+  api:
+    hostname: my-storage-api
+    build:
+      context: api
+    image: docker-networking-demo_api
+    expose:
+      - 80
+  client:
+    build:
+      context: client
+    image: docker-networking-demo_client
+    expose:
+      - 80
+
+# docker compose -f compose.1a.expose.yaml exec -it api /bin/sh

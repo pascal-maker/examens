@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delayed Frontend UI</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ecfdf5; margin: 0; padding: 32px; }
+    .card { max-width: 760px; margin: 0 auto; background: white; border: 1px solid #bbf7d0; border-radius: 12px; padding: 24px; }
+    .badge { display: inline-block; padding: 6px 10px; border-radius: 999px; background: #16a34a; color: #fff; font-weight: 600; font-size: 14px; }
+    pre { background: #111; color: #86efac; padding: 12px; border-radius: 8px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Delayed Frontend (depends_on + healthcheck)</h1>
+    <p>This container starts only after <code>api</code> is healthy.</p>
+    <span class="badge">API HEALTHY</span>
+    <pre id="payload">Loading...</pre>
+  </div>
+
+  <script>
+    async function load() {
+      const res = await fetch('/api/health', { cache: 'no-store' });
+      const data = await res.json();
+      document.getElementById('payload').textContent = JSON.stringify(data, null, 2);
+    }
+    load();
+  </script>
+</body>
+</html>

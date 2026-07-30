@@ -1,0 +1,790 @@
+@prefix : <https://intellispot.com/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://intellispot.com/ontology> .
+
+<https://intellispot.com/ontology> rdf:type owl:Ontology ;
+                                    rdfs:comment "An ontology for modeling product management concepts, extending into product engineering and product marketing." ;
+                                    rdfs:label "Intellispot Product Management Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://intellispot.com/ontology#explorable
+:explorable rdf:type owl:AnnotationProperty ;
+            rdfs:range xsd:boolean .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://intellispot.com/ontology#addressesProblem
+:addressesProblem rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :ValueProposition
+                                              :ValuePropositionCanvas
+                                            )
+                              ] ;
+                  rdfs:range :Problem ;
+                  rdfs:comment "The value proposition element of a business model addresses one or more problems identified." ;
+                  rdfs:label "addresses problem" .
+
+
+###  https://intellispot.com/ontology#adds_pain_for_job
+:adds_pain_for_job rdf:type owl:ObjectProperty ;
+                   rdfs:domain :CustomerPain ;
+                   rdfs:range :CustomerJob .
+
+
+###  https://intellispot.com/ontology#adressesNeedForUser
+:adressesNeedForUser rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :ProblemStatementCanvas ;
+                     rdfs:range :TargetUser ;
+                     rdfs:label "addresses need for target user" .
+
+
+###  https://intellispot.com/ontology#affectsFeature
+:affectsFeature rdf:type owl:ObjectProperty ;
+                rdfs:domain :Bug ;
+                rdfs:range :Feature ;
+                rdfs:label "affects feature" .
+
+
+###  https://intellispot.com/ontology#alignsWith
+:alignsWith rdf:type owl:ObjectProperty ;
+            rdfs:domain :Goal ;
+            rdfs:range :ValueProposition ;
+            rdfs:label "aligns with" .
+
+
+###  https://intellispot.com/ontology#appearsOnCanvas
+:appearsOnCanvas rdf:type owl:ObjectProperty ;
+                 rdfs:label "appears on canvas" .
+
+
+###  https://intellispot.com/ontology#appears_on_business_model_canvas
+:appears_on_business_model_canvas rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf :appearsOnCanvas ;
+                                  owl:inverseOf :business_model_canvas_contains ;
+                                  rdf:type owl:AsymmetricProperty ;
+                                  rdfs:domain [ rdf:type owl:Class ;
+                                                owl:unionOf ( :Channel
+                                                              :Cost
+                                                              :CustomerRelationship
+                                                              :CustomerSegment
+                                                              :KeyActivity
+                                                              :KeyPartnership
+                                                              :KeyResource
+                                                              :RevenueStream
+                                                              :ValueProposition
+                                                            )
+                                              ] ;
+                                  rdfs:range :BusinessModelCanvas .
+
+
+###  https://intellispot.com/ontology#appears_on_problem_statement_canvas
+:appears_on_problem_statement_canvas rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf :appearsOnCanvas ;
+                                     owl:inverseOf :problem_statement_canvas_contains ;
+                                     rdfs:domain [ rdf:type owl:Class ;
+                                                   owl:unionOf ( :Evidence
+                                                                 :ExistingAlternative
+                                                                 :Need
+                                                                 :Problem
+                                                                 :ProblemImpact
+                                                                 :TargetUser
+                                                               )
+                                                 ] ;
+                                     rdfs:range :ProblemStatementCanvas .
+
+
+###  https://intellispot.com/ontology#appears_on_value_proposition_canvas
+:appears_on_value_proposition_canvas rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf :appearsOnCanvas ;
+                                     owl:inverseOf :value_proposition_canvas_contains ;
+                                     rdfs:domain [ rdf:type owl:Class ;
+                                                   owl:unionOf ( :CustomerGain
+                                                                 :CustomerJob
+                                                                 :CustomerPain
+                                                                 :GainCreator
+                                                                 :PainReliever
+                                                                 :Problem
+                                                               )
+                                                 ] ;
+                                     rdfs:range :ValuePropositionCanvas .
+
+
+###  https://intellispot.com/ontology#belongsTo
+:belongsTo rdf:type owl:ObjectProperty ;
+           rdfs:domain :Customer ;
+           rdfs:range :CustomerSegment ;
+           rdfs:label "belongs to" .
+
+
+###  https://intellispot.com/ontology#belongsToTenant
+:belongsToTenant rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+                 rdfs:range <http://xmlns.com/foaf/0.1/Organization> ;
+                 rdfs:label "project belongs to tenant" .
+
+
+###  https://intellispot.com/ontology#bmcGenerates
+:bmcGenerates rdf:type owl:ObjectProperty ;
+              rdfs:domain :ValueProposition ;
+              rdfs:range :RevenueStream ;
+              rdfs:comment "a value proposition can contribute to one or more revenue streams" ;
+              rdfs:label "generates" .
+
+
+###  https://intellispot.com/ontology#bmcHasRelationship
+:bmcHasRelationship rdf:type owl:ObjectProperty ;
+                    rdfs:domain :CustomerSegment ;
+                    rdfs:range :CustomerRelationship ;
+                    rdfs:label "has relationship" .
+
+
+###  https://intellispot.com/ontology#bmcLeverages
+:bmcLeverages rdf:type owl:ObjectProperty ;
+              rdfs:domain :KeyActivity ;
+              rdfs:range :KeyPartnership ;
+              rdfs:label "leverages" .
+
+
+###  https://intellispot.com/ontology#bmcRequires
+:bmcRequires rdf:type owl:ObjectProperty ;
+             rdfs:domain :KeyActivity ;
+             rdfs:range :KeyResource ;
+             rdfs:label "requires" .
+
+
+###  https://intellispot.com/ontology#bmcSupports
+:bmcSupports rdf:type owl:ObjectProperty ;
+             rdfs:domain :KeyActivity ;
+             rdfs:range :ValueProposition ;
+             rdfs:label "supports" .
+
+
+###  https://intellispot.com/ontology#bmcTargets
+:bmcTargets rdf:type owl:ObjectProperty ;
+            rdfs:domain :ValueProposition ;
+            rdfs:range :CustomerSegment ;
+            rdfs:label "targets" .
+
+
+###  https://intellispot.com/ontology#business_model_canvas_contains
+:business_model_canvas_contains rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf :canvasContains ;
+                                rdfs:domain :BusinessModelCanvas ;
+                                rdfs:range [ rdf:type owl:Class ;
+                                             owl:unionOf ( :Channel
+                                                           :Cost
+                                                           :CustomerRelationship
+                                                           :CustomerSegment
+                                                           :KeyActivity
+                                                           :KeyPartnership
+                                                           :KeyResource
+                                                           :RevenueStream
+                                                           :ValueProposition
+                                                         )
+                                           ] .
+
+
+###  https://intellispot.com/ontology#canvasContains
+:canvasContains rdf:type owl:ObjectProperty ;
+                rdfs:comment "Connects a Canvas view to its constituent parts." ;
+                rdfs:label "canvas contains" .
+
+
+###  https://intellispot.com/ontology#creates_gain
+:creates_gain rdf:type owl:ObjectProperty ;
+              rdfs:domain :GainCreator ;
+              rdfs:range :CustomerGain .
+
+
+###  https://intellispot.com/ontology#deliveredInfoOn
+:deliveredInfoOn rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :derivedFrom ;
+                 rdf:type owl:AsymmetricProperty ,
+                          owl:IrreflexiveProperty ;
+                 rdfs:domain :Resource ;
+                 rdfs:comment "the subject resource has delivered information on the object entity" ;
+                 rdfs:label "delivered info on" .
+
+
+###  https://intellispot.com/ontology#delivers_value
+:delivers_value rdf:type owl:ObjectProperty ;
+                rdfs:domain :Product ;
+                rdfs:range :ValueProposition ;
+                rdfs:label "delivers value" .
+
+
+###  https://intellispot.com/ontology#derivedFrom
+:derivedFrom rdf:type owl:ObjectProperty ,
+                      owl:AsymmetricProperty ,
+                      owl:IrreflexiveProperty ;
+             rdfs:range :Resource ;
+             rdfs:comment "the subject entity has been derived from the referred resource" ;
+             rdfs:label "derived from resource" .
+
+
+###  https://intellispot.com/ontology#exploresJobFor
+:exploresJobFor rdf:type owl:ObjectProperty ;
+                rdfs:domain :ValuePropositionCanvas ;
+                rdfs:range :TargetUser ;
+                rdfs:label "explores job for target user" .
+
+
+###  https://intellispot.com/ontology#hasAlternative
+:hasAlternative rdf:type owl:ObjectProperty ;
+                rdfs:domain :Problem ;
+                rdfs:range :ExistingAlternative ;
+                rdfs:label "the problem has this alternative solution" .
+
+
+###  https://intellispot.com/ontology#hasBusinessModelCanvas
+:hasBusinessModelCanvas rdf:type owl:ObjectProperty ;
+                        rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+                        rdfs:range :BusinessModelCanvas ;
+                        rdfs:label "has business model canvas" .
+
+
+###  https://intellispot.com/ontology#hasCompetitor
+:hasCompetitor rdf:type owl:ObjectProperty ;
+               rdfs:domain :Product ;
+               rdfs:range :Competitor ;
+               rdfs:label "has competitor" .
+
+
+###  https://intellispot.com/ontology#hasEvidence
+:hasEvidence rdf:type owl:ObjectProperty ;
+             rdfs:domain :Problem ;
+             rdfs:range :Evidence ;
+             rdfs:label "the problem has evidence" .
+
+
+###  https://intellispot.com/ontology#hasImpact
+:hasImpact rdf:type owl:ObjectProperty ;
+           rdfs:domain :Problem ;
+           rdfs:range :ProblemImpact ;
+           rdfs:label "the problem has impact" .
+
+
+###  https://intellispot.com/ontology#hasProblemStatementCanvas
+:hasProblemStatementCanvas rdf:type owl:ObjectProperty ;
+                           rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+                           rdfs:label "has problem statement canvas" .
+
+
+###  https://intellispot.com/ontology#hasProduct
+:hasProduct rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+            rdfs:range :Product ;
+            rdfs:label "has product" .
+
+
+###  https://intellispot.com/ontology#hasProductService
+:hasProductService rdf:type owl:ObjectProperty ;
+                   rdfs:domain :ValuePropositionCanvas ;
+                   rdfs:range :Product ;
+                   rdfs:label "considered product or service" .
+
+
+###  https://intellispot.com/ontology#hasProject
+:hasProject rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://xmlns.com/foaf/0.1/Organization> ;
+            rdfs:range <http://xmlns.com/foaf/0.1/Project> ;
+            rdfs:label "organization has project" .
+
+
+###  https://intellispot.com/ontology#hasValuePropositionCanvas
+:hasValuePropositionCanvas rdf:type owl:ObjectProperty ;
+                           rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+                           rdfs:range :ValuePropositionCanvas ;
+                           rdfs:label "has value proposition canvas" .
+
+
+###  https://intellispot.com/ontology#has_job_to_get_done
+:has_job_to_get_done rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :TargetUser ;
+                     rdfs:range :CustomerJob .
+
+
+###  https://intellispot.com/ontology#incurs
+:incurs rdf:type owl:ObjectProperty ;
+        rdfs:domain :KeyActivity ;
+        rdfs:range :Cost ;
+        rdfs:label "incurs" .
+
+
+###  https://intellispot.com/ontology#isCausedBy
+:isCausedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :Problem ;
+            rdfs:range :Need ;
+            rdfs:label "the problem is caused by this need" .
+
+
+###  https://intellispot.com/ontology#isDescribedBy
+:isDescribedBy rdf:type owl:ObjectProperty ;
+               rdfs:domain :Requirement ;
+               rdfs:range :UserStory ;
+               rdfs:label "is described by" .
+
+
+###  https://intellispot.com/ontology#isExperiencedBy
+:isExperiencedBy rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Problem ;
+                 rdfs:range :TargetUser ;
+                 rdfs:label "the target user for this problem" .
+
+
+###  https://intellispot.com/ontology#isProvidedBy
+:isProvidedBy rdf:type owl:ObjectProperty ;
+              rdfs:domain :Feedback ;
+              rdfs:range :Customer ;
+              rdfs:label "is provided by" .
+
+
+###  https://intellispot.com/ontology#isReachedVia
+:isReachedVia rdf:type owl:ObjectProperty ;
+              rdfs:domain :CustomerSegment ;
+              rdfs:range :Channel ;
+              rdfs:label "is reached via" .
+
+
+###  https://intellispot.com/ontology#is_gain_for_job
+:is_gain_for_job rdf:type owl:ObjectProperty ;
+                 rdfs:domain :CustomerGain ;
+                 rdfs:range :CustomerJob .
+
+
+###  https://intellispot.com/ontology#outputBasedOn
+:outputBasedOn rdf:type owl:ObjectProperty ;
+               rdfs:domain :CanvasDescription ;
+               rdfs:range :CanvasView ;
+               rdfs:label "output is based on" .
+
+
+###  https://intellispot.com/ontology#problem_statement_canvas_contains
+:problem_statement_canvas_contains rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf :canvasContains ;
+                                   rdfs:domain :ProblemStatementCanvas ;
+                                   rdfs:range [ rdf:type owl:Class ;
+                                                owl:unionOf ( :Evidence
+                                                              :ExistingAlternative
+                                                              :Need
+                                                              :Problem
+                                                              :ProblemImpact
+                                                              :TargetUser
+                                                            )
+                                              ] .
+
+
+###  https://intellispot.com/ontology#realizes
+:realizes rdf:type owl:ObjectProperty ;
+          rdfs:domain :Feature ;
+          rdfs:range :ValueProposition ;
+          rdfs:comment "Connects a concrete feature to the abstract value it provides." ;
+          rdfs:label "realizes" .
+
+
+###  https://intellispot.com/ontology#refersToProblem
+:refersToProblem rdf:type owl:ObjectProperty ;
+                 rdfs:domain :ValuePropositionCanvas ;
+                 rdfs:range :Problem ;
+                 rdfs:label "refers to problem" .
+
+
+###  https://intellispot.com/ontology#relatesTo
+:relatesTo rdf:type owl:ObjectProperty ;
+           rdfs:domain :Feedback ;
+           rdfs:range :Feature ;
+           rdfs:label "relates to" .
+
+
+###  https://intellispot.com/ontology#reliefs_pain
+:reliefs_pain rdf:type owl:ObjectProperty ;
+              rdfs:domain :PainReliever ;
+              rdfs:range :CustomerPain .
+
+
+###  https://intellispot.com/ontology#satisfies
+:satisfies rdf:type owl:ObjectProperty ;
+           rdfs:domain :Feature ;
+           rdfs:range :Requirement ;
+           rdfs:label "satisfies" .
+
+
+###  https://intellispot.com/ontology#solves
+:solves rdf:type owl:ObjectProperty ;
+        rdfs:domain :Product ;
+        rdfs:range :Problem ;
+        rdfs:label "the product solves this problem" .
+
+
+###  https://intellispot.com/ontology#suggests
+:suggests rdf:type owl:ObjectProperty ;
+          rdfs:domain :Feedback ;
+          rdfs:range :Feature ;
+          rdfs:label "suggests" .
+
+
+###  https://intellispot.com/ontology#supports
+:supports rdf:type owl:ObjectProperty ;
+          rdfs:domain :Feature ;
+          rdfs:range :Goal ;
+          rdfs:label "supports goal" .
+
+
+###  https://intellispot.com/ontology#validates
+:validates rdf:type owl:ObjectProperty ;
+           rdfs:domain :Feedback ;
+           rdfs:range :Problem ;
+           rdfs:label "validates" .
+
+
+###  https://intellispot.com/ontology#value_proposition_canvas_contains
+:value_proposition_canvas_contains rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf :canvasContains ;
+                                   rdfs:domain :ValuePropositionCanvas ;
+                                   rdfs:range [ rdf:type owl:Class ;
+                                                owl:unionOf ( :CustomerGain
+                                                              :CustomerJob
+                                                              :CustomerPain
+                                                              :GainCreator
+                                                              :PainReliever
+                                                              :Problem
+                                                            )
+                                              ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://intellispot.com/ontology#dateAdded
+:dateAdded rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Resource ;
+           rdfs:range xsd:dateTime ;
+           rdfs:label "date resource added" .
+
+
+###  https://intellispot.com/ontology#dateDeliverableCreated
+:dateDeliverableCreated rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Deliverable ;
+                        rdfs:range xsd:dateTime ;
+                        rdfs:label "date deliverable created" .
+
+
+###  https://intellispot.com/ontology#hasScore
+:hasScore rdf:type owl:DatatypeProperty ;
+          rdfs:domain :CanvasView ;
+          rdfs:range xsd:decimal ;
+          rdfs:label "has score" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Project
+<http://xmlns.com/foaf/0.1/Project> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/person
+<http://xmlns.com/foaf/0.1/person> rdf:type owl:Class .
+
+
+###  https://intellispot.com/ontology#Bug
+:Bug rdf:type owl:Class ;
+     rdfs:comment "A defect or issue in the product." ;
+     rdfs:label "Bug" .
+
+
+###  https://intellispot.com/ontology#BusinessModelCanvas
+:BusinessModelCanvas rdf:type owl:Class ;
+                     rdfs:subClassOf :CanvasView ;
+                     rdfs:comment "A representation of a business model, containing all core components like Value Proposition, Customer Segments, etc." ;
+                     rdfs:label "Business Model Canvas" ;
+                     :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#CanvasDescription
+:CanvasDescription rdf:type owl:Class ;
+                   rdfs:subClassOf :OutputDocument ;
+                   rdfs:comment "a document describing the content that is represented on a canvas view" ;
+                   rdfs:label "canvas description" .
+
+
+###  https://intellispot.com/ontology#CanvasView
+:CanvasView rdf:type owl:Class ;
+            rdfs:subClassOf :View ;
+            rdfs:comment "A canvas to visualize relation between set of elements, e.g. Business Model Canvas." ;
+            rdfs:label "Canvas" .
+
+
+###  https://intellispot.com/ontology#Channel
+:Channel rdf:type owl:Class ;
+         rdfs:comment "How the product reaches its customer segments." ;
+         rdfs:label "Channel" .
+
+
+###  https://intellispot.com/ontology#Competitor
+:Competitor rdf:type owl:Class ;
+            rdfs:comment "A competing product or company." ;
+            rdfs:label "Competitor" .
+
+
+###  https://intellispot.com/ontology#Cost
+:Cost rdf:type owl:Class ;
+      rdfs:comment "A specific cost incurred by the business operations." ;
+      rdfs:label "Cost" .
+
+
+###  https://intellispot.com/ontology#Customer
+:Customer rdf:type owl:Class ;
+          rdfs:comment "A specific, named customer instance." ;
+          rdfs:label "Customer" .
+
+
+###  https://intellispot.com/ontology#CustomerGain
+:CustomerGain rdf:type owl:Class ;
+              rdfs:comment "A specific gain a user will experience in getting a job done using the offered product or service." ;
+              rdfs:label "Customer gain" .
+
+
+###  https://intellispot.com/ontology#CustomerJob
+:CustomerJob rdf:type owl:Class ;
+             rdfs:comment "The job that the user of the needs to get done." ;
+             rdfs:label "Customer job" .
+
+
+###  https://intellispot.com/ontology#CustomerPain
+:CustomerPain rdf:type owl:Class ;
+              rdfs:comment "A specific pain a user is reliefed from in getting a job done using the offered product or service." ;
+              rdfs:label "Customer pain" .
+
+
+###  https://intellispot.com/ontology#CustomerRelationship
+:CustomerRelationship rdf:type owl:Class ;
+                      rdfs:comment "The type of interaction the product has with its customers." ;
+                      rdfs:label "Customer Relationship" .
+
+
+###  https://intellispot.com/ontology#CustomerSegment
+:CustomerSegment rdf:type owl:Class ;
+                 rdfs:comment "A group of people or organizations the product aims to serve." ;
+                 rdfs:label "Customer Segment" .
+
+
+###  https://intellispot.com/ontology#Deliverable
+:Deliverable rdf:type owl:Class ;
+             rdfs:comment "any deliverable that is derived from the knowledge base" ;
+             rdfs:label "generic deliverable" .
+
+
+###  https://intellispot.com/ontology#Evidence
+:Evidence rdf:type owl:Class ;
+          rdfs:comment "Data, research, or feedback that validates the existence and importance of the problem." ;
+          rdfs:label "Evidence" ;
+          :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#ExistingAlternative
+:ExistingAlternative rdf:type owl:Class ;
+                     rdfs:comment "A current solution or workaround used by the target user." ;
+                     rdfs:label "Existing Alternative" .
+
+
+###  https://intellispot.com/ontology#Feature
+:Feature rdf:type owl:Class ;
+         rdfs:comment "A distinct capability of the product." ;
+         rdfs:label "Feature" .
+
+
+###  https://intellispot.com/ontology#Feedback
+:Feedback rdf:type owl:Class ;
+          rdfs:comment "A piece of input from a customer (e.g., support ticket, survey response)." ;
+          rdfs:label "Feedback" .
+
+
+###  https://intellispot.com/ontology#GainCreator
+:GainCreator rdf:type owl:Class ;
+             rdfs:comment "What your product or service does to create a gain for the user to get a job done." ;
+             rdfs:label "Gain creator" .
+
+
+###  https://intellispot.com/ontology#Goal
+:Goal rdf:type owl:Class ;
+      rdfs:comment "A strategic objective (e.g., 'Increase user retention by 15%')." ;
+      rdfs:label "Goal" .
+
+
+###  https://intellispot.com/ontology#GraphView
+:GraphView rdf:type owl:Class ;
+           rdfs:subClassOf :View ;
+           rdfs:label "Graph" .
+
+
+###  https://intellispot.com/ontology#InputDocument
+:InputDocument rdf:type owl:Class ;
+               rdfs:subClassOf :Resource ;
+               rdfs:comment "any document that has been uploaded to extract information from" ;
+               rdfs:label "document resource" .
+
+
+###  https://intellispot.com/ontology#InterviewReport
+:InterviewReport rdf:type owl:Class ;
+                 rdfs:subClassOf :InputDocument ;
+                 rdfs:label "interview report document" .
+
+
+###  https://intellispot.com/ontology#KeyActivity
+:KeyActivity rdf:type owl:Class ;
+             rdfs:comment "The most important actions the business must take to operate." ;
+             rdfs:label "Key Activity" .
+
+
+###  https://intellispot.com/ontology#KeyPartnership
+:KeyPartnership rdf:type owl:Class ;
+                rdfs:subClassOf <http://xmlns.com/foaf/0.1/Organization> ;
+                rdfs:comment "The network of suppliers and partners." ;
+                rdfs:label "Key Partnership" .
+
+
+###  https://intellispot.com/ontology#KeyResource
+:KeyResource rdf:type owl:Class ;
+             rdfs:comment "The assets required to offer and deliver the value proposition." ;
+             rdfs:label "Key Resource" .
+
+
+###  https://intellispot.com/ontology#MarketReport
+:MarketReport rdf:type owl:Class ;
+              rdfs:subClassOf :InputDocument ;
+              rdfs:label "market information document" ;
+              :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#Messaging
+:Messaging rdf:type owl:Class ;
+           rdfs:subClassOf :OutputDocument .
+
+
+###  https://intellispot.com/ontology#Need
+:Need rdf:type owl:Class ;
+      rdfs:comment "The underlying motivation or requirement driving the user’s behavior. It’s internal and enduring. The need is why it matters to the person. Example “Technicians need quick and reliable access to correct information to work efficiently and safely”." ;
+      rdfs:label "Need" ;
+      :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#OutputDocument
+:OutputDocument rdf:type owl:Class ;
+                rdfs:subClassOf :Deliverable ;
+                rdfs:comment "any document that is created derived from the knowledge base of a subset thereof" ;
+                rdfs:label "output document" .
+
+
+###  https://intellispot.com/ontology#PainReliever
+:PainReliever rdf:type owl:Class ;
+              rdfs:comment "What your product or service does to relief a pain for the user to get a job done." ;
+              rdfs:label "Pain reliever" .
+
+
+###  https://intellispot.com/ontology#Problem
+:Problem rdf:type owl:Class ;
+         rdfs:comment "A specific problem, undesired situation or pain the user is experiencing. A problem is external and observable. The problem is what's wrong in the world. Example 'technicians lose time searching for updated work instructions'." ;
+         rdfs:label "Problem" ;
+         :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#ProblemImpact
+:ProblemImpact rdf:type owl:Class ;
+               rdfs:comment "The negative consequences of the problem for the user or business, processes or the environment." ;
+               rdfs:label "Problem Impact" .
+
+
+###  https://intellispot.com/ontology#ProblemStatementCanvas
+:ProblemStatementCanvas rdf:type owl:Class ;
+                        rdfs:subClassOf :CanvasView ;
+                        rdfs:comment "A canvas to define the problems addressed, for a specific user, the impact, alternatives and collecting evidence the problem is real." ;
+                        rdfs:label "Problem Statement Canvas"@en ;
+                        :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#Product
+:Product rdf:type owl:Class ;
+         rdfs:comment "The central product, service, or solution that satisfies one or multiple needs." ;
+         rdfs:label "Product" .
+
+
+###  https://intellispot.com/ontology#ProductRequirements
+:ProductRequirements rdf:type owl:Class ;
+                     rdfs:subClassOf :OutputDocument .
+
+
+###  https://intellispot.com/ontology#Requirement
+:Requirement rdf:type owl:Class ;
+             rdfs:comment "A detailed need that a feature must satisfy." ;
+             rdfs:label "Requirement" .
+
+
+###  https://intellispot.com/ontology#Resource
+:Resource rdf:type owl:Class ;
+          rdfs:comment "generic external resource of information" ;
+          rdfs:label "External Rresource" .
+
+
+###  https://intellispot.com/ontology#RevenueStream
+:RevenueStream rdf:type owl:Class ;
+               rdfs:comment "How the product generates income from a value proposition." ;
+               rdfs:label "Revenue Stream" .
+
+
+###  https://intellispot.com/ontology#TableView
+:TableView rdf:type owl:Class ;
+           rdfs:subClassOf :View ;
+           rdfs:label "Table" .
+
+
+###  https://intellispot.com/ontology#TargetUser
+:TargetUser rdf:type owl:Class ;
+            rdfs:subClassOf <http://xmlns.com/foaf/0.1/person> ;
+            rdfs:comment "The specific individual or group affected by problems, needs and solutions." ;
+            rdfs:label "Target User" .
+
+
+###  https://intellispot.com/ontology#UserStory
+:UserStory rdf:type owl:Class ;
+           rdfs:comment "An informal explanation of a feature from the end user's perspective." ;
+           rdfs:label "User Story" .
+
+
+###  https://intellispot.com/ontology#ValueProposition
+:ValueProposition rdf:type owl:Class ;
+                  rdfs:comment "What the product offers to solve problems or satisfy needs for a customer segment." ;
+                  rdfs:label "Value Proposition" .
+
+
+###  https://intellispot.com/ontology#ValuePropositionCanvas
+:ValuePropositionCanvas rdf:type owl:Class ;
+                        rdfs:subClassOf :CanvasView ;
+                        rdfs:comment "A visual tool for to determine gain creators and pain relievers of a product for a job of a persona." ;
+                        rdfs:label "Value Proposition Canvas" ;
+                        :explorable "true"^^xsd:boolean .
+
+
+###  https://intellispot.com/ontology#View
+:View rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

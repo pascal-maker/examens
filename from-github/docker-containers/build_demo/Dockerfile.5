@@ -1,0 +1,41 @@
+# 1️⃣ Stage 1: Build Dependencies
+FROM python:3.14-alpine AS builder
+
+# Set working directory
+WORKDIR /app
+
+# Copy only dependencies first to optimize caching
+COPY requirements.txt .
+
+# Install dependencies in a local directory
+RUN pip install --no-cache-dir --user -r requirements.txt
+
+
+
+# 2️⃣ Stage 2: Final Lightweight Image
+FROM python:3.14-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Security: Create a non-root user and switch to it
+RUN adduser -D appuser
+USER appuser
+
+# Copy installed dependencies from builder stage
+COPY --from=builder /root/.local /home/appuser/.local
+# Set PATH to include locally installed binaries
+ENV PATH="/home/appuser/.local/bin:$PATH"
+
+# Copy the application code
+COPY . .
+
+# 3️⃣ Add an argument (build-time) and an environment variable (runtime)
+ARG FASTAPI_PORT=8000
+ENV FASTAPI_PORT=${FASTAPI_PORT}
+
+# Expose the port dynamically based on ARG (for better documentation)
+EXPOSE ${FASTAPI_PORT}
+
+# Run the FastAPI application using the configured port
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${FASTAPI_PORT}"]

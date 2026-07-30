@@ -1,0 +1,34 @@
+# 1️⃣ Stage 1: Build dependencies, name this image as `builder` image.
+FROM python:3.14-slim AS builder
+WORKDIR /app
+
+# Extra build packages for some dependencies
+RUN apt-get update && apt-get install -y build-essential
+
+# Copy and install dependencies separately for better caching
+COPY requirements.txt .
+RUN pip install --no-cache-dir --user -r requirements.txt
+
+
+
+# 2️⃣ Stage 2: Final image (minimal), name this image as `production`
+FROM python:3.14-slim AS production
+WORKDIR /app
+
+# ⬆️ Moved up because it's a layer that can be reused easier. Security best-practice to run as non-root
+RUN useradd -m appuser
+USER appuser
+
+# Copy only necessary files from builder stage. Create an a /home/appuser to hold the binaries
+COPY --from=builder /root/.local /home/appuser/.local
+# Set PATH to use installed dependencies
+ENV PATH="/home/appuser/.local/bin:$PATH"
+
+# Copy over the rest of the files!
+COPY . .
+
+# Expose port
+EXPOSE 8000
+
+# Run the FastAPI app
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
