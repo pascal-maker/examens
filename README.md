@@ -34,6 +34,8 @@ Private archive of exam-related material.
   - Source: `pascal-maker/datavisualization`
 - `from-github/datavisualization/chess/`
   - Source: `pascal-maker/datavisualization`
+- `from-github/datavisualization/exam-data-visualisation-2026-pascal-maker/`
+  - Source: `howest-mct/exam-data-visualisation-2026-pascal-maker`
 - `from-github/deeplearning/`
   - Source: `pascal-maker/deeplearning`
   - Contains the deep learning lab exam notebook and course assignment notebooks.
